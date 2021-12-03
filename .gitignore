@@ -1,30 +1,30 @@
-/vendor/
+#/vendor/
 node_modules/
 npm-debug.log
 yarn-error.log
 
 # Laravel 4 specific
-bootstrap/compiled.php
+app/bootstrap/compiled.php
 app/storage/
 
 # Laravel 5 & Lumen specific
-public/storage
-public/hot
+app/public/storage
+app/public/hot
 
 # Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+app/public_html/storage
+app/public_html/hot
 
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+app/storage/*.key
+app/.env
+app/Homestead.yaml
+app/Homestead.json
+app/.vagrant
+app/.phpunit.result.cache
 
 # Natural body art 208 (wordpress)
-public/ac/wp-config.php
-public/ac/wp-content/uploads/*
+app/public/ac/wp-config.php
+app/public/ac/wp-content/uploads/*
 
 # mac
 .DS_Store
