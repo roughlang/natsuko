@@ -22,5 +22,12 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
+# Natural body art 208 (wordpress)
+public/ac/wp-config.php
+public/ac/wp-content/uploads/*
+
 # mac
 .DS_Store
+
+# my private
+*_my*
