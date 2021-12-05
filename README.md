@@ -52,3 +52,14 @@ $ cp .env.example .env
 $ /usr/local/php/8.0/bin/php artisan key:generate
 ```
 .envの内容は環境に合わせて書き換えてください。
+
+db setting
+mysql dbを作成して、そのアクセス情報を書いておきます。
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=app
+DB_USERNAME=root
+DB_PASSWORD=
+```

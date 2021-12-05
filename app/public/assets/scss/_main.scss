@@ -1,0 +1,29 @@
+@import "_bootstrap";
+
+
+
+
+body {
+  font-family: Georgia, serif !important;
+	letter-spacing: 0.7px;
+
+	.navbar {
+		.search-form {
+			border: 1px solid #6c757d;
+		}
+		.search-btn {
+			background-image: url(/assets/img/item/search-icon.png);
+			background-size: 60%;
+			background-repeat: no-repeat;
+			width: 40px;
+			background-position: center;
+		}
+	}
+
+	.big-banner-top {
+		height: 560px;
+		background: #000;
+		background-image: url("/assets/img/top/top-banner.jpg");
+		background-size: 100%;
+	}
+}
