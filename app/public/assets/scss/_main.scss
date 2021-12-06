@@ -1,6 +1,12 @@
 @import "_bootstrap";
 
-
+/* boot strap5
+@media (max-width: 575px) {width: 90%;}
+@media (min-width: 576px) and (max-width: 768px) {width: 400px;}
+@media (min-width: 769px) and (max-width: 992px) {width: 500px;}
+@media (min-width: 993px) and (max-width: 1200px) {width: 600px;}
+@media (min-width: 1201px) {width: 700px;}
+*/
 
 
 body {
@@ -20,10 +26,10 @@ body {
 		}
 	}
 
+	/* top banner  */
 	.big-banner-top {
 		height: 560px;
 		background: no-repeat url("/assets/img/top/top-banner.jpg");
 		background-size: 100%;
-
 	}
 }
