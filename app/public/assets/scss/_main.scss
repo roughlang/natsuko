@@ -12,7 +12,7 @@ body {
 			border: 1px solid #6c757d;
 		}
 		.search-btn {
-			background-image: url(/assets/img/item/search-icon.png);
+			background-image:  url(/assets/img/item/search-icon.png);
 			background-size: 60%;
 			background-repeat: no-repeat;
 			width: 40px;
@@ -22,8 +22,8 @@ body {
 
 	.big-banner-top {
 		height: 560px;
-		background: #000;
-		background-image: url("/assets/img/top/top-banner.jpg");
+		background: no-repeat url("/assets/img/top/top-banner.jpg");
 		background-size: 100%;
+
 	}
 }
