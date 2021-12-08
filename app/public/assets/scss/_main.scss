@@ -118,7 +118,7 @@ body {
 		}
 		.top_jagua_tattoo {
 			// width: 70%;
-			@media (max-width: 768px) {width: 90%;}
+			@media (max-width: 768px) {width: 70%;}
 			@media (min-width: 769px) and (max-width: 992px) {width: 80%;}
 			@media (min-width: 993px) and (max-width: 1200px) {width: 70%;}
 			@media (min-width: 1201px) {width: 60%;}
@@ -132,7 +132,7 @@ body {
 	}
 
 	footer {
-		@media (max-width: 768px) {margin-top: 370px;}
+		@media (max-width: 768px) {margin-top: 270px;}
 		padding: 20px;
 		border-top: 1px solid #c1c1c1;
 		h4 {
