@@ -30,7 +30,7 @@ body {
 		text-decoration: none;
 	}
 	a:hover, a:active {
-		margin-left: 1px;
+		// margin-left: 1px;
 		color: #2474b5;
 		text-decoration: underline;
 	}
@@ -68,6 +68,10 @@ body {
 	/* top banner  */
 	.big-banner-top {
 		// background: no-repeat url("/assets/img/top/top-banner_xl.png") #000;
+		.reservation-btn {
+			color: #fff;
+			text-decoration: none;
+		}
 		/*xs*/
 		@media (max-width: 575px) {
 			background-size:cover !important;
@@ -105,14 +109,28 @@ body {
 		}
 	}
 	.top-block-01 {
+		margin-top: 100px;
 		height: 500px;
 		animation: fadeIn 0.2s ease 0.3s 1 normal;
 		font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, メイリオ, Meiryo, serif, sans-serif;
+		.jagua_tattoo_img {
+			height: 372px;
+		}
+		.top_jagua_tattoo {
+			width: 70%;
+			border-radius: 50%;
+			margin: auto 0;
+		}
+		ul {
+			li {
+				line-height: 30px;
+			}
+		}
 	}
 
 	footer {
 		padding: 20px;
-		border: 1px solid #888;
+		border-top: 1px solid #c1c1c1;
 		h4 {
 			font-weight: normal;
 			font-size: 15px;

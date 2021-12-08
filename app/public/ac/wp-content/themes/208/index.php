@@ -100,16 +100,32 @@
 <div class="p-3 p-sm-5 mb-4 border-top big-banner-top" id="big-banner-top">
   <div class="container">
     <h1 class="display-4">Natural body art 208</h1>
-    <p class="lead">東京・JR国分寺駅徒歩1分 2週間で消える、ジャグアタトゥーとは？</p>
+    <p class="lead">天然染料で染める、2週間で消えるボディアートジャグアタトゥー &ヘナタトゥー<br>東京・JR国分寺駅から徒歩1分</p>
     <hr class="my-4">
-    <p>より大きなコンテナの範囲内でコンテンツに空間をあけるため、文字の体裁と空白ユーティリティクラスを使用している。</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Reservation</a>
+    <p><!--東京・JR国分寺駅から徒歩1分--></p>
+    <a class="btn btn-secondary btn-lg reservation-btn" href="#" role="button">Reservation</a>
   </div>
 </div>
-<div class="container mt-2 top-block-01">
-  <h1>ブランド</h1>
-  <p>ココにサイトの文章が入ります。</p>
+
+<div class="container top-block-01">
+  <div class="row">
+    <div class="col-sm-6 mb-5 jagua_tattoo_img">
+      <img src="/assets/img/top/top_jagua_tattoo.jpg" alt="Jagua-tattoo" class="top_jagua_tattoo mx-auto d-block">    
+    </div>
+    <div class="col-sm-6 mb-5">
+      <ul>
+        <li>紺色〜青色に染まります</li>
+        <li>色持ちは1〜3週間（個人差アリ）</li>
+        <li>5×10㎝サイズで所要時間は約1時間</li>
+        <li>施術してから実際に発色するまでに24～48時間ほどかかります。旅行やイベントなどでご利用の際には2～3日前の施術をお勧めします。</li>
+        <li>施術後お帰りになってから1～8時間後にお客様自身でシャワーなどでインクを洗い流して頂く工程があります。そのようなご予定でご予約ください。</li>
+      </ul>
+    </div>    
+    
+  </div>
 </div>
+
+
 
 <footer>
   <div class="container">
