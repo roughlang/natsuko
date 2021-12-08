@@ -109,10 +109,10 @@
 
 <div class="container top-block-01">
   <div class="row">
-    <div class="col-sm-6 mb-5 jagua_tattoo_img">
+    <div class="col-md-6 mb-5 jagua_tattoo_img">
       <img src="/assets/img/top/top_jagua_tattoo.jpg" alt="Jagua-tattoo" class="top_jagua_tattoo mx-auto d-block">    
     </div>
-    <div class="col-sm-6 mb-5">
+    <div class="col-md-6 mb-5">
       <ul>
         <li>紺色〜青色に染まります</li>
         <li>色持ちは1〜3週間（個人差アリ）</li>

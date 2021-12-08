@@ -114,12 +114,15 @@ body {
 		animation: fadeIn 0.2s ease 0.3s 1 normal;
 		font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, メイリオ, Meiryo, serif, sans-serif;
 		.jagua_tattoo_img {
-			height: 372px;
+			// height: 372px;
 		}
 		.top_jagua_tattoo {
-			width: 70%;
+			// width: 70%;
+			@media (max-width: 768px) {width: 90%;}
+			@media (min-width: 769px) and (max-width: 992px) {width: 80%;}
+			@media (min-width: 993px) and (max-width: 1200px) {width: 70%;}
+			@media (min-width: 1201px) {width: 60%;}
 			border-radius: 50%;
-			margin: auto 0;
 		}
 		ul {
 			li {
@@ -129,6 +132,7 @@ body {
 	}
 
 	footer {
+		@media (max-width: 768px) {margin-top: 370px;}
 		padding: 20px;
 		border-top: 1px solid #c1c1c1;
 		h4 {
