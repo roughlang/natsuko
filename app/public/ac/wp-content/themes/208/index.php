@@ -57,6 +57,7 @@
 	<script type="text/javascript" src="/assets/bootstrap5/js/bootstrap.min.js"></script>
 </head>
 <body>
+<div class="topbar"></div>
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container-fluid">
     <a class="navbar-brand" href="/"><?php bloginfo('name'); ?></a>
@@ -102,13 +103,44 @@
     <p class="lead">東京・JR国分寺駅徒歩1分 2週間で消える、ジャグアタトゥーとは？</p>
     <hr class="my-4">
     <p>より大きなコンテナの範囲内でコンテンツに空間をあけるため、文字の体裁と空白ユーティリティクラスを使用している。</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">もっと学ぼう</a>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Reservation</a>
   </div>
 </div>
-<div class="container mt-2">
+<div class="container mt-2 top-block-01">
   <h1>ブランド</h1>
   <p>ココにサイトの文章が入ります。</p>
 </div>
 
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="http://mehendi208.blog137.fc2.com/">Price</a></li>
+          <li><a href="http://naturalhigh208.blogspot.jp/">Gallery</a></li>
+          <li><a href="http://www.mehndi.jp/">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+      <h4>SNS</h4>
+        <ul>
+          <li><a href="https://twitter.com/Mehndi208">Twitetr</a></li>
+          <li><a href="https://www.instagram.com/natsuko208/?hl=ja">Instagram</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4"> 
+      <h4>Link</h4>
+        <ul>
+          <li><a href="http://mehendi208.blog137.fc2.com/">メヘンディ２０８</a></li>
+          <li><a href="http://naturalhigh208.blogspot.jp/">Natural high</a></li>
+          <li><a href="http://www.mehndi.jp/">ハート＊フール</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <p class="copy-right">Copyright (c) Natural Body Art 208 東京 All Rights Reserved.</p>
+</footer>
 </body>
 </html>
