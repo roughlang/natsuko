@@ -15,8 +15,10 @@ md ≥768px
 lg ≥992px
 xl ≥1200px
 */
-@mixin w-xs {
-  @media (max-width: 575px) {width: 90%;}
+@mixin set-serif {
+  font-family: Georgia, serif !important;
+	letter-spacing: 0.7px;
+	color: #555;
 }
 
 body {
@@ -30,7 +32,6 @@ body {
 		text-decoration: none;
 	}
 	a:hover, a:active {
-		// margin-left: 1px;
 		color: #2474b5;
 		text-decoration: underline;
 	}
@@ -45,29 +46,40 @@ body {
 		@media (min-width: 1201px) { background-color: #888; }
 	}
 	.navbar {
+		ul.nav208 {
+			li.nav-item {
+				a:visited, a:link { color: #555; }
+				a:active, a:hover { text-decoration: none; }
+				@media (max-width: 575px) {
+					font-size: 20px;
+				}
+			}
+		}
 		.search-form {
-			border: 1px solid #6c757d;
-			border-radius: 5px 0 0 5px;
-		}
-		.search-btn {
-			background-image:  url(/assets/img/item/search-icon.png);
-			background-size: 60%;
-			background-repeat: no-repeat;
-			width: 40px;
-			background-position: center;
-			margin-left: -9px;
-    	border-radius: 0 5px 5px 0px;
-		}
-		.search-btn:hover {
-			color: #fff;
-    	background-color: #fff;
-    	border-color: #6c757d;
+			@media (max-width: 575px) { margin-bottom:15px; }
+			.search-input {
+				border: 1px solid #6c757d;
+				border-radius: 5px 0 0 5px;
+			}
+			.search-btn {
+				background-image:  url(/assets/img/item/search-icon.png);
+				background-size: 60%;
+				background-repeat: no-repeat;
+				width: 40px;
+				background-position: center;
+				margin-left: -9px;
+				border-radius: 0 5px 5px 0px;
+			}
+			.search-btn:hover {
+				color: #fff;
+				background-color: #fff;
+				border-color: #6c757d;
+			}
 		}
 	}
 
 	/* top banner  */
 	.big-banner-top {
-		// background: no-repeat url("/assets/img/top/top-banner_xl.png") #000;
 		.reservation-btn {
 			color: #fff;
 			text-decoration: none;
@@ -109,12 +121,19 @@ body {
 		}
 	}
 	.top-block-01 {
-		margin-top: 100px;
-		height: 500px;
-		animation: fadeIn 0.2s ease 0.3s 1 normal;
+		margin-top: 50px;
+		// height: 500px;
 		font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, メイリオ, Meiryo, serif, sans-serif;
+		
 		.jagua_tattoo_img {
-			// height: 372px;
+			h2.what, h2.h2-208  {
+				margin-bottom: 32px;
+				font-family: Georgia, serif !important;
+				@media (max-width: 768px) {
+					font-size: 19px;
+					text-align: center;
+				}
+			}
 		}
 		.top_jagua_tattoo {
 			// width: 70%;
@@ -127,6 +146,31 @@ body {
 		ul {
 			li {
 				line-height: 30px;
+			}
+		}
+	}
+
+	.top-block-02 {
+		font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, メイリオ, Meiryo, serif, sans-serif;
+		.price1 {
+			// background: #00f;
+			h2 {
+				@include set-serif;
+				// font-size: 19px;
+				@media (max-width: 768px) {
+					font-size: 19px;
+					text-align: center;
+					margin-top: 30px;
+				}
+			}
+		}
+		.price2 {
+			// background: #f00;
+			.price-img {
+				padding: 0;
+				.price-image {
+					width: 100%;
+				}
 			}
 		}
 	}
@@ -151,3 +195,5 @@ body {
 		}
 	}
 }
+
+
