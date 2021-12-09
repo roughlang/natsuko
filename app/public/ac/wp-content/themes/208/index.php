@@ -6,8 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="index, follow, archive">
 	<title><?php bloginfo('name'); ?></title>
-	<meta name="description" content="東京・JR国分寺駅徒歩1分 2週間で消えるジャグアタトゥーとは？">
-
+	<meta name="description" content="天然染料で染める、2週間で消えるボディアートジャグアタトゥー &ヘナタトゥー。東京・JR国分寺駅徒歩1分。2週間で消えるジャグアタトゥーとは？">
+  <link rel="canonical" href="https://natural-body-art-208.com/">
   <meta name="msapplication-square70x70logo" content="/assets/img/icon/favicon/site-tile-70x70.png">
   <meta name="msapplication-square150x150logo" content="/assets/img/icon/favicon/site-tile-150x150.png">
   <meta name="msapplication-wide310x150logo" content="/assets/img/icon/favicon/site-tile-310x150.png">
@@ -110,7 +110,7 @@
 <div class="container top-block-01 jagua_tattoo">
   <div class="row">
     <div class="col-md-6 mb-5 jagua_tattoo_img">
-      <h2 class="what">２週間で消えるジャグアタトゥとは？</h2>
+      <h2 class="h2-208 what">２週間で消えるジャグアタトゥとは？</h2>
       <img src="/assets/img/top/top_jagua_tattoo.jpg" alt="Jagua-tattoo" class="top_jagua_tattoo mx-auto d-block">    
     </div>
     <div class="col-md-6 mb-5">
@@ -130,19 +130,47 @@
     <div class="col-md-12 col-lg-6 price price2">
       <div class="container">
         <div class="row">
-          <div class="col-4 price-img"><img src="/assets/img/top/price/image-01.jpg" class="price-image" alt="jagua-image"></div>
-          <div class="col-4 price-img"><img src="/assets/img/top/price/image-02.jpg" class="price-image" alt="jagua-image"></div>
-          <div class="col-4 price-img"><img src="/assets/img/top/price/image-03.jpg" class="price-image" alt="jagua-image"></div>
-          <div class="col-4 price-img"><img src="/assets/img/top/price/image-04.jpg" class="price-image" alt="jagua-image"></div>
-          <div class="col-4 price-img"><img src="/assets/img/top/price/image-05.jpg" class="price-image" alt="jagua-image"></div>
-          <div class="col-4 price-img"><img src="/assets/img/top/price/image-05.jpg" class="price-image" alt="jagua-image"></div>
-          <div class="col-4 price-img"><img src="/assets/img/top/price/image-07.jpg" class="price-image" alt="jagua-image"></div>
-          <div class="col-4 price-img"><img src="/assets/img/top/price/image-08.jpg" class="price-image" alt="jagua-image"></div>
-          <div class="col-4 price-img"><img src="/assets/img/top/price/image-09.jpg" class="price-image" alt="jagua-image"></div>
+          <div class="col-4 price-img">
+            <span class="img-num">①</span>
+            <img src="/assets/img/top/price/image-01.jpg" class="price-image" alt="jagua-image">
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">②</span>
+            <img src="/assets/img/top/price/image-02.jpg" class="price-image" alt="jagua-image">
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">③</span>
+            <img src="/assets/img/top/price/image-03.jpg" class="price-image" alt="jagua-image">
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">④</span>
+            <img src="/assets/img/top/price/image-04.jpg" class="price-image" alt="jagua-image">
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">⑤</span>
+            <img src="/assets/img/top/price/image-05.jpg" class="price-image" alt="jagua-image">
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">⑥</span>
+            <img src="/assets/img/top/price/image-05.jpg" class="price-image" alt="jagua-image">
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">⑦</span>
+            <img src="/assets/img/top/price/image-07.jpg" class="price-image" alt="jagua-image">
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">⑧</span>
+            <img src="/assets/img/top/price/image-08.jpg" class="price-image" alt="jagua-image">
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">⑨</span>
+            <img src="/assets/img/top/price/image-09.jpg" class="price-image" alt="jagua-image">
+          </div>
         </div>
       </div>
+    </div>
     <div class="col-md-12 col-lg-6 price price1">
-      <h2>施術料金</h2>
+      <h2 class="h2-208 mb20" >施術料金</h2>
 
       ご予約の最低金額は¥3300円になります。<br>
       サイズはお二人で分けて頂いてもOKです！
@@ -160,8 +188,6 @@
 
       価格は税込みです。
       大きめサイズはお気軽にご相談ください。お値段のお問い合わせは、大体で良いのでご希望のデザインやサイズ感が近いタトゥー画像などを送って頂けるとたすかります！
-    </div>
-
     </div>
   </div>
 </div>
