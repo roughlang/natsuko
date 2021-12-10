@@ -146,24 +146,23 @@
             <span class="img-num">④</span>
             <img src="/assets/img/top/price/image-04.jpg" class="price-image" alt="jagua-image">
           </div>
+          <div class="col-4 price-img price-center-block">
+            Natural body art 208
+          </div>
           <div class="col-4 price-img">
             <span class="img-num">⑤</span>
             <img src="/assets/img/top/price/image-05.jpg" class="price-image" alt="jagua-image">
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑥</span>
-            <img src="/assets/img/top/price/image-05.jpg" class="price-image" alt="jagua-image">
-          </div>
-          <div class="col-4 price-img">
-            <span class="img-num">⑦</span>
             <img src="/assets/img/top/price/image-07.jpg" class="price-image" alt="jagua-image">
           </div>
           <div class="col-4 price-img">
-            <span class="img-num">⑧</span>
+            <span class="img-num">⑦</span>
             <img src="/assets/img/top/price/image-08.jpg" class="price-image" alt="jagua-image">
           </div>
           <div class="col-4 price-img">
-            <span class="img-num">⑨</span>
+            <span class="img-num">⑧</span>
             <img src="/assets/img/top/price/image-09.jpg" class="price-image" alt="jagua-image">
           </div>
         </div>
@@ -172,19 +171,24 @@
     <div class="col-md-12 col-lg-6 price price1">
       <h2 class="h2-208 mb20" >施術料金</h2>
 
-      ご予約の最低金額は¥3300円になります。<br>
-      サイズはお二人で分けて頂いてもOKです！
+      <p class="mt10">ご予約の最低金額は¥3300円になります。<br>
+      サイズはお二人で分けて頂いてもOKです！</p>
 
-      <ul>
-        <li>①3㎝×3㎝以内 （2個）¥3300</li>
-        <li>②5㎝×5㎝ ¥3300</li>
-        <li>③5㎝×10㎝ ¥4400</li>
-        <li>④8㎝×8㎝ ¥4400</li>
-        <li>⑤8㎝×20㎝ ¥8800</li>
-        <li>⑥10㎝×10㎝ ¥5500</li>
-        <li>⑦10㎝×20㎝ ¥9900</li>
-        <li>⑧背中大きめサイズ¥14300〜19800</li>
-      </ul>
+      <table class="mt20 mb30 price-table">
+        <tr>
+          <th> </th>
+          <th>size</th>
+          <th>price</th>
+        </tr>
+        <tr><td>①</td><td>3cm×3cm以内（2個）</td><td>¥3,300</td></tr>
+        <tr><td>②</td><td>5cm×5cm</td><td>¥3,300</td></tr>
+        <tr><td>③</td><td>5cm×10cm</td><td>¥4400</td></tr>
+        <tr><td>④</td><td>8cm×8cm</td><td>¥4400</td></tr>
+        <tr><td>⑤</td><td>8cm×20cm</td><td>¥8800</td></tr>
+        <tr><td>⑥</td><td>10cm×10cm</td><td>¥5500</td></tr>
+        <tr><td>⑦</td><td>10cm×20cm</td><td>¥9900</td></tr>
+        <tr><td>⑧</td><td>背中大きめサイズ</td><td>¥14300〜19800</td></tr>
+      </table>
 
       価格は税込みです。
       大きめサイズはお気軽にご相談ください。お値段のお問い合わせは、大体で良いのでご希望のデザインやサイズ感が近いタトゥー画像などを送って頂けるとたすかります！
