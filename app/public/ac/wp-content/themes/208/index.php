@@ -5,7 +5,8 @@
 <div class="p-3 p-sm-5 mb-4 border-top big-banner-top" id="big-banner-top">
   <div class="container">
     <h1 class="display-4">Natural body art 208</h1>
-    <p class="lead">天然染料で染める、2週間で消えるボディアートジャグアタトゥー &ヘナタトゥー<br>東京・JR国分寺駅から徒歩1分</p>
+    <p class="lead">天然染料で染める、2週間で消えるボディアートジャグアタトゥー &ヘナタトゥー</p>
+    <p class="sub-lead">東京・JR国分寺駅から徒歩１分</p>
     <hr class="my-4">
     <p><!--東京・JR国分寺駅から徒歩1分--></p>
     <a class="btn btn-secondary btn-lg reservation-btn" href="#" role="button">Reservation</a>
@@ -15,7 +16,7 @@
 <div class="container top-block-01 jagua_tattoo">
   <div class="row">
     <div class="col-md-6 mb-5 jagua_tattoo_img">
-      <h2 class="h2-208 what">２週間で消えるジャグアタトゥとは？</h2>
+      <h2 class="h2-208 what">２週間で消えるジャグアタトゥーとは？</h2>
       <img src="/assets/img/top/top_jagua_tattoo.jpg" alt="Jagua-tattoo" class="top_jagua_tattoo mx-auto d-block">    
     </div>
     <div class="col-md-6 mb-5">
@@ -122,7 +123,7 @@
   </div>
 </div>
 
-<footer>
+<footer class="mt60">
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
