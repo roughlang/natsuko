@@ -20,6 +20,11 @@ xl ≥1200px
 	letter-spacing: 0.7px;
 	color: #555;
 }
+@mixin set-sans-serif {
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, メイリオ, Meiryo, sans-serif !important;
+	letter-spacing: 0.7px;
+	color: #555;
+}
 
 body {
   font-family: Georgia, serif !important;
@@ -122,9 +127,7 @@ body {
 	}
 	.top-block-01 {
 		margin-top: 50px;
-		// height: 500px;
-		font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, メイリオ, Meiryo, serif, sans-serif;
-		
+		@include set-sans-serif;
 		.jagua_tattoo_img {
 			h2.what, h2.h2-208  {
 				margin-bottom: 32px;
@@ -151,12 +154,10 @@ body {
 	}
 
 	.top-block-02 {
-		font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, メイリオ, Meiryo, serif, sans-serif;
+		@include set-sans-serif;
 		.price1 {
-			// background: #00f;
 			h2 {
 				@include set-serif;
-				// font-size: 19px;
 				@media (max-width: 768px) {
 					font-size: 19px;
 					text-align: center;
@@ -202,6 +203,9 @@ body {
 				@include set-serif;
 			}
 		}
+	}
+	.top-block-blog {
+		@include set-sans-serif;
 	}
 
 	footer {

@@ -30,7 +30,7 @@
   </div>
 </div>
 
-<div class="container top-block-02">
+<div class="container top-block-02 mt30">
   <div class="row">
     <div class="col-md-12 col-lg-6 price price2">
       <div class="container">
@@ -74,6 +74,7 @@
       </div>
     </div>
     <div class="col-md-12 col-lg-6 price price1">
+      <a name="top-price"></a>
       <h2 class="h2-208 mb20" >施術料金</h2>
 
       <p class="mt10">ご予約の最低金額は¥3300円になります。<br>
@@ -87,12 +88,12 @@
         </tr>
         <tr><td>①</td><td>3cm×3cm以内（2個）</td><td>¥3,300</td></tr>
         <tr><td>②</td><td>5cm×5cm</td><td>¥3,300</td></tr>
-        <tr><td>③</td><td>5cm×10cm</td><td>¥4400</td></tr>
-        <tr><td>④</td><td>8cm×8cm</td><td>¥4400</td></tr>
-        <tr><td>⑤</td><td>8cm×20cm</td><td>¥8800</td></tr>
-        <tr><td>⑥</td><td>10cm×10cm</td><td>¥5500</td></tr>
-        <tr><td>⑦</td><td>10cm×20cm</td><td>¥9900</td></tr>
-        <tr><td>⑧</td><td>背中大きめサイズ</td><td>¥14300〜19800</td></tr>
+        <tr><td>③</td><td>5cm×10cm</td><td>¥4,400</td></tr>
+        <tr><td>④</td><td>8cm×8cm</td><td>¥4,400</td></tr>
+        <tr><td>⑤</td><td>8cm×20cm</td><td>¥8,800</td></tr>
+        <tr><td>⑥</td><td>10cm×10cm</td><td>¥5,500</td></tr>
+        <tr><td>⑦</td><td>10cm×20cm</td><td>¥9,900</td></tr>
+        <tr><td>⑧</td><td>背中大きめサイズ</td><td>¥14,300〜19,800</td></tr>
       </table>
 
       価格は税込みです。
@@ -101,9 +102,9 @@
   </div>
 </div>
     
-<div class="container top-block-02">
+<div class="container top-block-blog mt50">
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-6">
       <h2>Blog</h2>
       <!--wordpress loop-->
       <?php if(have_posts()): ?>
@@ -115,6 +116,9 @@
         <!-- 投稿データが取得できない場合の処理 -->
       <?php endif; ?>
     </div>
+    <div class="col-sm-6">
+      foo
+    </div>
   </div>
 </div>
 
@@ -124,7 +128,7 @@
       <div class="col-sm-4">
         <h4>Menu</h4>
         <ul>
-          <li><a href="http://mehendi208.blog137.fc2.com/">Price</a></li>
+          <li><a href="/ac/#top-price">Price</a></li>
           <li><a href="http://naturalhigh208.blogspot.jp/">Gallery</a></li>
           <li><a href="http://www.mehndi.jp/">Contact</a></li>
         </ul>
