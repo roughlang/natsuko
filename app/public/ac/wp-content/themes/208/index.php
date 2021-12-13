@@ -5,8 +5,8 @@
 <div class="p-3 p-sm-5 mb-4 border-top big-banner-top" id="big-banner-top">
   <div class="container">
     <h1 class="display-4">Natural body art 208</h1>
-    <p class="lead">天然染料で染める、2週間で消えるボディアートジャグアタトゥー &ヘナタトゥー</p>
-    <p class="sub-lead">東京・JR国分寺駅から徒歩１分</p>
+    <p class="lead">天然染料で染める、<br class="lead-br">2週間で消える<br class="lead-br">ジャグアタトゥー &ヘナタトゥー<br><br class="lead-br">東京・JR国分寺駅から徒歩１分</p>
+    <!-- <p class="sub-lead"></p> -->
     <hr class="my-4">
     <p><!--東京・JR国分寺駅から徒歩1分--></p>
     <a class="btn btn-secondary btn-lg reservation-btn" href="#" role="button">Reservation</a>
