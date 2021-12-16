@@ -86,7 +86,17 @@ body {
 	/* top banner  */
 	.big-banner-top {
 		p.lead {
-			
+			color: #fff;
+			text-align: center;
+			font-size: 18px;
+			background:rgba(0, 0, 0, 0.4);
+			padding: 9px;
+    	border-radius: 30px;
+      .lead-br {
+        @media (max-width: 575px) { display: block; }
+        @media (min-width: 576px) and (max-width: 1200px) { display: none; }
+        @media (min-width: 1201px) { display: none; }
+      }
 		}
 		p.sub-lead {
 			color: #fff;
