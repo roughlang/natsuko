@@ -83,7 +83,7 @@
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑧</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_08" class="modal-link">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_09" class="modal-link">
               <img src="/assets/img/top/price/image-09.jpg" class="price-image" alt="jagua-image">
             </a>
           </div>
@@ -195,7 +195,7 @@
         </div>
       </div>
     </div>
-    <div class="modal fade" id="modalid_08" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalid_09" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
