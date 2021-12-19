@@ -9,7 +9,7 @@
     <!-- <p class="sub-lead"></p> -->
     <hr class="my-4">
     <p><!--東京・JR国分寺駅から徒歩1分--></p>
-    <a class="btn btn-secondary btn-lg reservation-btn" href="#" role="button">Reservation</a>
+    <a class="btn btn-dark btn-lg reservation-btn" href="#" role="button">Reservation</a>
   </div>
 </div>
 
@@ -215,8 +215,8 @@
       <a name="top-price"></a>
       <h2 class="h2-208 mb20" >施術料金</h2>
 
-      <p class="mt10">ご予約の最低金額は¥3300円になります。<br>
-      サイズはお二人で分けて頂いてもOKです！</p>
+      <!-- <p class="mt10">ご予約の最低金額は¥3300円になります。<br>
+      サイズはお二人で分けて頂いてもOKです！</p> -->
 
       <table class="mt20 mb30 price-table">
         <tr>
@@ -234,9 +234,8 @@
         <tr><td>⑧</td><td>背中大きめサイズ</td><td>¥14,300〜19,800</td></tr>
       </table>
 
-      価格は税込みです。
-      大きめサイズはお気軽にご相談ください。お値段のお問い合わせは、大体で良いのでご希望のデザインやサイズ感が近いタトゥー画像などを送って頂けるとたすかります！
-      <p class="mt10"><a href="#">料金詳細はこちら</a></p>
+      <p class="mt10 price-attention">サイズに対しての価格は目安になります。密度の高い柄や塗りつぶしのある柄などは施術に時間がかかるため、料金が高くなることがあります。</p>
+      <p class="mt10 text-align-left"><a href="#">料金詳細はこちら</a></p>
     </div>
   </div>
 </div>
