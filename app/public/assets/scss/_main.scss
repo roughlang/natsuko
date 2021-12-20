@@ -246,6 +246,7 @@ body {
 			}
 			.page-text {
 				@include set-sans-serif;
+				line-height: 23px;
 			}
 		}
 		.sidebar {
