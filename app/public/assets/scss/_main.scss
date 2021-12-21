@@ -81,6 +81,13 @@ body {
 				border-color: #6c757d;
 			}
 		}
+		a.navbar-brand {
+			font-size: 18px;
+			margin-bottom: -2px;
+			img.navbar-brand-img {
+				width: 28px;
+			}
+		}
 		a.navbar-brand:link, a.navbar-brand:visited {
 			text-decoration: none;
 		}
@@ -91,6 +98,9 @@ body {
 
 	/* top banner  */
 	.big-banner-top {
+		h1 {
+			color: #000;
+		}
 		p.lead {
 			color: #fff;
 			text-align: center;
@@ -115,6 +125,7 @@ body {
 		.reservation-btn {
 			color: #fff;
 			text-decoration: none;
+			letter-spacing: 2px;
 		}
 		/*xs*/
 		@media (max-width: 575px) {
@@ -164,6 +175,16 @@ body {
 					text-align: center;
 				}
 			}
+		}
+		.navbar-brand-text {
+
+		}
+		ul.jagua_tattoo_ul {
+			
+			@media (max-width: 768px) { margin-top: 0; }
+			@media (min-width: 769px) and (max-width: 992px) {margin-top: 100px;}
+			@media (min-width: 993px) and (max-width: 1200px) {margin-top: 100px;}
+			@media (min-width: 1201px) {margin-top: 120px;}
 		}
 		.top_jagua_tattoo {
 			// width: 70%;
@@ -233,9 +254,14 @@ body {
 			}
 		}
 	}
-	.top-block-blog {
-		@include set-sans-serif;
+	.top-attention {
+		p {
+			@include set-sans-serif;
+		}
 	}
+	// .top-block-blog {
+	// 	@include set-sans-serif;
+	// }
 
 	/* page */
 	.page {

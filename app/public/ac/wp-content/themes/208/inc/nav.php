@@ -1,7 +1,10 @@
 <div class="topbar"></div>
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/"><?php bloginfo('name'); ?></a>
+    <a class="navbar-brand" href="/">
+      <img src="/assets/img/icon/logo_680.png" class="navbar-brand-img">
+      <span class="navbar-brand-text"><?php bloginfo('name'); ?></span>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,15 +14,14 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/">Size & Price</a>
+          <a class="nav-link active" href="#top-price">Size & Price</a>
         </li>
 				<li class="nav-item">
-          <a class="nav-link active" href="/">Attention</a>
+          <a class="nav-link active" href="#top-attention">Attention</a>
         </li>
 				<li class="nav-item">
-          <a class="nav-link active" href="#">Reservation</a>
+          <a class="nav-link active" href="#reservation">Reservation</a>
         </li>
-
 				<li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             link

@@ -20,7 +20,7 @@
       <img src="/assets/img/top/top_jagua_tattoo.jpg" alt="Jagua-tattoo" class="top_jagua_tattoo mx-auto d-block">    
     </div>
     <div class="col-md-6 mb-5">
-      <ul>
+      <ul class="jagua_tattoo_ul">
         <li>紺色〜青色に染まります</li>
         <li>色持ちは1〜3週間（個人差アリ）</li>
         <li>5×10㎝サイズで所要時間は約1時間</li>
@@ -235,28 +235,39 @@
       </table>
 
       <p class="mt10 price-attention">サイズに対しての価格は目安になります。密度の高い柄や塗りつぶしのある柄などは施術に時間がかかるため、料金が高くなることがあります。</p>
-      <p class="mt10 text-align-left"><a href="#">料金詳細はこちら</a></p>
+      <p class="mt10 text-align-left"><a href="/ac/price/">料金詳細はこちら</a></p>
     </div>
   </div>
 </div>
     
-<div class="container top-block-blog mt50">
+<div class="container top-attention mt100">
   <div class="row">
-    <div class="col-sm-6">
-      <h2>Blog</h2>
-      <!--wordpress loop-->
-      <?php if(have_posts()): ?>
-        <?php while(have_posts()): the_post(); ?>
-          <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          <?php the_content(); ?>
-        <?php endwhile; ?>
-      <?php else: ?>
-        <!-- 投稿データが取得できない場合の処理 -->
-      <?php endif; ?>
+    <div class="col-md-12 col-lg-6">
+      <a name="top-attention"></a>
+      <h2 class="h2-208 mb20" >注意事項</h2>
+        <h3>アレルギーに注意！</h3>
+        <p>イチゴやピーナッツ、アルコール、また以下の成分にアレルギーがある方は施術はしないでください。</p>
+        <p>
+          ＜ジャグアインク内容成分＞<br>
+          100%天然植物染料 ゲニパアメリカーナの抽出液、変性アルコール、キサンタンガム、クエン酸、ソルビン酸カリウム、ラベンダーエッセンシャルオイル
+        </p>
+
+        <h3>発色・色持ちには個人差アリ</h3>
+        <p>乾燥肌や冷えた肌の方は染まり方が弱い場合があります。また、新陳代謝の早い方や皮膚が薄い方は早く退色する傾向もあります。
+        それぞれの肌質に合わせて出来る限り最善を尽くしますが、発色、色持ちには個人差がある旨ご理解いただけますようお願いいたします。</p>
+
+
     </div>
-    <div class="col-sm-6">
-      foo
+
+    <div class="col-md-12 col-lg-6">
+    <h3>予約当日は楽な服装で</h3>
+        <p>施術部位を露出しやすい、締めつけない服装で来てください。特に大きめサイズ（2時間以上）の施術の場合は、長時間同じ姿勢でも疲れない服装で来ると楽チンですよ。また、当日は肌にクリームなども塗らずに来てください。体毛が濃いめの方は前日までに剃っておいてくださいね。</p>
+        
+        <h3>施術後1-7時間は汗は✖️！</h3>
+        <p>夏場は1-4時間、それ以外の季節は1-7時間、施術後は絶対に汗をかかないように気をつけてください。インクが定着前のジャグアタトゥーは極端に汗に弱く、汗をかくと汚く滲んでしまいます。施術後は涼しい場所で過ごしてください。
+        時間がきたら自分でシャワーなどで施術部位を洗い流して頂きます。大体24-48時間後に完全に発色します。洗い流した直後は絵柄がすごく薄くても大丈夫なので心配しないでくださいね。</p>
     </div>
+
   </div>
 </div>
 
