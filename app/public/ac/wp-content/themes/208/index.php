@@ -4,20 +4,47 @@
 <?php include("inc/nav.php"); ?>
 <div class="p-3 p-sm-5 mb-4 border-top big-banner-top" id="big-banner-top">
   <div class="container">
-    <h1 class="display-4">Natural body art 208</h1>
-    <p class="lead">天然染料で染める、<br class="lead-br">2週間で消える<br class="lead-br">ジャグアタトゥー &ヘナタトゥー<br><br class="lead-br">東京・JR国分寺駅から徒歩１分</p>
+    <div class="big-banner-top-title">
+      <h1 class="top-title">Natural body art 208</h1>
+    </div>
+    <div class="big-banner-top-lead">
+      <h2 class="top-lead">
+        <span class="num">2</span><span class="text">週間で消える</span><br>
+        Jagua tattoo<br>◎<br>Henna tattoo
+      </h2>
+    </div>
+    <!-- <h1 class="display-4">Natural body art 208</h1> -->
+    <!-- <p class="lead">天然染料で染める、<br class="lead-br">2週間で消える<br class="lead-br">ジャグアタトゥー &ヘナタトゥー<br><br class="lead-br">東京・JR国分寺駅から徒歩１分</p> -->
     <!-- <p class="sub-lead"></p> -->
-    <hr class="my-4">
+    <!-- <hr class="my-4"> -->
     <p><!--東京・JR国分寺駅から徒歩1分--></p>
-    <a class="btn btn-dark btn-lg reservation-btn" href="#" role="button">Reservation</a>
+    <!-- <a class="btn btn-dark btn-lg reservation-btn" href="#" role="button">Reservation</a> -->
+  </div>
+</div>
+
+<div class="p-3 p-sm-5 mb-4 jagua_tattoo-menu">
+  <h2 class="h2-208-sp mb20">東京・国分寺駅徒歩１分</h2>
+  <div class="menu-block">
+    <div class="menu term">
+      <a href="#">Menu</a>
+    </div>
+    <div class="price term">
+      <a href="#">Price</a>
+    </div>
+    <div class="reservation term">
+      <a href="#">Reservation</a>
+    </div>
+    <div class="access term">
+      <a href="#">Access</a>
+    </div>
   </div>
 </div>
 
 <div class="container top-block-01 jagua_tattoo">
   <div class="row">
-    <div class="col-md-6 mb-5 jagua_tattoo_img">
-      <h2 class="h2-208 what">２週間で消えるジャグアタトゥーとは？</h2>
-      <img src="/assets/img/top/top_jagua_tattoo.jpg" alt="Jagua-tattoo" class="top_jagua_tattoo mx-auto d-block">    
+    <div class="col-md-6 mb-5 jagua_tattoo_menu">
+      <h2 class="h2-208 what">東京・国分寺駅徒歩１分</h2>
+      
     </div>
     <div class="col-md-6 mb-5">
       <ul class="jagua_tattoo_ul">
