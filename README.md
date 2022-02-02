@@ -14,5 +14,4 @@ Homebrew 3.3.7
 Homebrew/homebrew-core (git revision da3296385e7; last commit 2021-12-12)
 ```
 
-
-
+## 
