@@ -26,38 +26,44 @@
   <h2 class="h2-208-sp mb20">東京・国分寺駅徒歩１分</h2>
   <div class="menu-block">
     <div class="menu term">
-      <a href="#">Menu</a>
+      <?php if(WP_ENV=='local'): ?>
+        <a href="/ac/?page_id=5">Menu</a>
+      <?php else:?>
+        <a href="/ac/menu/">Menu</a>
+      <?php endif; ?>
     </div>
     <div class="price term">
-      <a href="#">Price</a>
+      <?php if(WP_ENV=='local'): ?>
+        <a href="/ac/?page_id=7">Price</a>
+      <?php else:?>
+        <a href="/ac/price/">Price</a>
+      <?php endif; ?>
     </div>
     <div class="reservation term">
-      <a href="#">Reservation</a>
+      <?php if(WP_ENV=='local'): ?>
+        <a href="/ac/?page_id=9">Reservation</a>
+      <?php else:?>
+        <a href="/ac/reservation/">Reservation</a>
+      <?php endif; ?>
     </div>
     <div class="access term">
-      <a href="#">Access</a>
+      <a href="/ac/access/">Access</a>
     </div>
   </div>
 </div>
 
-<div class="container top-block-01 jagua_tattoo">
+<div class="container top-block-01 top-sns">
   <div class="row">
-    <div class="col-md-6 mb-5 jagua_tattoo_menu">
-      <h2 class="h2-208 what">東京・国分寺駅徒歩１分</h2>
-      
-    </div>
-    <div class="col-md-6 mb-5">
-      <ul class="jagua_tattoo_ul">
-        <li>紺色〜青色に染まります</li>
-        <li>色持ちは1〜3週間（個人差アリ）</li>
-        <li>5×10㎝サイズで所要時間は約1時間</li>
-        <li>施術してから実際に発色するまでに24～48時間ほどかかります。旅行やイベントなどでご利用の際には2～3日前の施術をお勧めします。</li>
-        <li>施術後お帰りになってから1～8時間後にお客様自身でシャワーなどでインクを洗い流して頂く工程があります。そのようなご予定でご予約ください。</li>
-      </ul>
+    <div class="col-md-12">
+      <div class="sns-link">
+        <a href="https://www.instagram.com/natsuko208/" target="_blank"><img src="/assets/img/top/sns-instagram-icon.png"></a>
+        <a href="https://twitter.com/Mehndi208" target="_blank"><img src="/assets/img/top/sns-twitter-icon.png"></a>
+      </div>
     </div>
   </div>
 </div>
 
+<!--
 <div class="container top-block-02 mt30">
   <div class="row">
     <div class="col-md-12 col-lg-6 price price2">
@@ -242,9 +248,6 @@
       <a name="top-price"></a>
       <h2 class="h2-208 mb20" >施術料金</h2>
 
-      <!-- <p class="mt10">ご予約の最低金額は¥3300円になります。<br>
-      サイズはお二人で分けて頂いてもOKです！</p> -->
-
       <table class="mt20 mb30 price-table">
         <tr>
           <th> </th>
@@ -295,5 +298,5 @@
 
   </div>
 </div>
-
+-->
 <?php include("inc/footer.php"); ?>

@@ -14,13 +14,16 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#top-price">Size & Price</a>
+          <a class="nav-link active" href="/ac/menu/">Menu</a>
         </li>
 				<li class="nav-item">
-          <a class="nav-link active" href="#top-attention">Attention</a>
+          <a class="nav-link active" href="/ac/price/">Price</a>
         </li>
 				<li class="nav-item">
-          <a class="nav-link active" href="#reservation">Reservation</a>
+          <a class="nav-link active" href="/ac/reservation/">Reservation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/ac/access/">Access</a>
         </li>
 				<li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
