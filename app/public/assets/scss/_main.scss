@@ -220,6 +220,16 @@ body {
   .n208t-price {
     margin-top:65px;
   }
+  .n208t-reservation {
+    margin-top:65px;
+    .n208-block {
+      .tcntr {
+        text-align: center;
+      }
+      // background: #ff0;
+      
+    }
+  }
 	.jagua_tattoo-menu {
 		// background: #333;
 		padding: 0 !important;
@@ -351,9 +361,14 @@ body {
         @include set-serif;
       }
       ul {
+        padding: 18px;
         li {
           // background: #0ff;s
           list-style: none;
+          text-indent: -1em;
+        }
+        li:before {
+          content: "● ";
         }
       }
 

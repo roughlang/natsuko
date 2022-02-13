@@ -23,14 +23,6 @@
   </div>
 </div>
 
-<!--
-  menu
-  price
-    - アフターケア
-  reservation
-    - 注意事項
-  access
--->
 <div class="p-3 p-sm-5 mb-4 jagua_tattoo-menu">
   <h2 class="h2-208-sp mb20">東京・国分寺駅徒歩１分</h2>
   <div class="menu-block">
@@ -117,8 +109,8 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-09.jpg" width="100%" alt="料金 背中大きめサイズ ¥14,300〜19,800">
-              <p class="price-caption">xxxxxxxxxxxxxx</p>
+              <img src="/assets/img/menu/jagua.jpg" width="100%" alt="ジャグアタトゥー">
+              <p class="price-caption">ジャグアタトゥー</p>
             </p>
           </div>
         </div>
@@ -126,26 +118,22 @@
     </div>
     <div class="col-md-12 col-lg-6 n208-block">
       <h3 class="mt30">ジャグアタトゥー</h3>
-      <p class="mt20">
+      <p class="mt10">
         <ul>
-          <li>●ジャグアタトゥーは紺に近い青色に染まります。</li>
-          <li>●色持ちは1～3週間ほど(部位差、個人差があります。)新陳代謝の早い人ほど早く色が落ちていきます。</li>
-          <li>●施術してから実際に発色するまでに２４～４８時間ほどかかります。
+          <li>ジャグアタトゥーは紺に近い青色に染まります。</li>
+          <li>色持ちは1～3週間ほど(部位差、個人差があります。)新陳代謝の早い人ほど早く色が落ちていきます。</li>
+          <li>施術してから実際に発色するまでに２４～４８時間ほどかかります。
           旅行やイベントなどでご利用の際には２～３日前の施術をお勧めします。</li>
-          <li>●施術時間は10×10㎝サイズで１時間半ほどです。</li>
-          <li>●施術後は1〜8時間後（季節や施術部位により異なります）にご自身で施術部位をシャワーなどで洗い流していただく工程があります。そのようなご予定でご予約ください。</li>
-          <li>●施術後は洗い流すまでの1〜7時間の間は汗をかかないように、また濡らさないように注意してください。</li>
-          <li>●施術後は保護テープを貼ってお帰り頂くため衣服への色移りなどはありませんが、できるだけ施術部位を締め付けない服装でお越し下さい。</li>
-          <li>● イチゴやナッツなどのバラ科、種子類のアレルギーがある方はアレルギー反応（痒み、腫れなど）を起こす可能性があるため施術が行えません。また敏感肌の方などは添加物の成分に刺激され赤くなる場合があります。</li>
-          <li>●ジャグアタトゥーに使うインクの成分は以下のようになります。
+          <li>施術時間は10×10㎝サイズで１時間半ほどです。</li>
+          <li>施術後は1〜8時間後（季節や施術部位により異なります）にご自身で施術部位をシャワーなどで洗い流していただく工程があります。そのようなご予定でご予約ください。</li>
+          <li>施術後は洗い流すまでの1〜7時間の間は汗をかかないように、また濡らさないように注意してください。</li>
+          <li>施術後は保護テープを貼ってお帰り頂くため衣服への色移りなどはありませんが、できるだけ施術部位を締め付けない服装でお越し下さい。</li>
+          <li> イチゴやナッツなどのバラ科、種子類のアレルギーがある方はアレルギー反応（痒み、腫れなど）を起こす可能性があるため施術が行えません。また敏感肌の方などは添加物の成分に刺激され赤くなる場合があります。</li>
+          <li>ジャグアタトゥーに使うインクの成分は以下のようになります。
           成分/ゲニパアメリカーナ(天然染料)、キタサンガム、植物性油、エチルアルコール</li>
-          <li>●染まった時の色の濃さには個人差があります。やや薄く染まる方もいれば、くっきり濃く染まる方もいます。また、同じ人でもその時の肌の状態によって色の出方が変わる場合があります。肌が乾燥気味だったり冷たかったりした場合、またその方の肌質によっては染まりにくい場合があります。</li>
+          <li>染まった時の色の濃さには個人差があります。やや薄く染まる方もいれば、くっきり濃く染まる方もいます。また、同じ人でもその時の肌の状態によって色の出方が変わる場合があります。肌が乾燥気味だったり冷たかったりした場合、またその方の肌質によっては染まりにくい場合があります。</li>
         </ul>
-      
-      
-      
       </p>
-      <!-- <p class="mt10 text-align-left"><a href="/ac/price/">料金詳細はこちら</a></p> -->
     </div>
   </div>
 </div>
@@ -156,8 +144,8 @@
       <div class="container">
         <div class="row">
           <div class="col-12 price-img">
-            <a data-bs-toggle="modal" data-bs-target="#modalid_jagua" class="modal-link">
-              <img src="/assets/img/top/price/image-01.jpg#01" class="price-image" alt="料金 ① 3cm × 3cm以内（2個）">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_hena" class="modal-link">
+              <img src="/assets/img/menu/hena.jpg" class="price-image" alt="ヘナタトゥー">
             </a>
           </div>
           <!-- <div class="col-4 price-img">
@@ -181,7 +169,7 @@
         </div>
       </div>
     </div>
-    <div class="modal fade" id="modalid_jagua" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalid_hena" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
@@ -189,31 +177,31 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-09.jpg" width="100%" alt="料金 背中大きめサイズ ¥14,300〜19,800">
-              <p class="price-caption">xxxxxxxxxxxxxx</p>
+              <img src="/assets/img/menu/hena.jpg" width="100%" alt="ヘナタトゥー">
+              <p class="price-caption">ヘナタトゥー</p>
             </p>
           </div>
         </div>
       </div>
     </div>
     <div class="col-md-12 col-lg-6 n208-block">
-      <h3>ヘナタトゥー</h3>
-      <p class="mt10 price-attention">
-      ●ヘナタトゥーはオレンジ〜茶色に染まります。施術してから1〜2日後は鮮やかなオレンジ色になり、3日目くらいから徐々に褐色に色が変化していきます。
-      ●色持ちは1～2週間ほど(部位差、個人差があります。)新陳代謝の早い人ほど早く色が落ちていきます。
-      ●施術してから一番濃く発色するまでに3日ほどかかります。
-      旅行やイベントなどでご利用の際には２～３日前の施術をお勧めします。
-      ●施術時間は10×10㎝サイズで1時間ほどです。
-      ●ヘナタトゥーは描けるデザインが限定されるため、デザインについてはご相談ください。また、使用するヘナペーストの作成に時間がかかるため3日以上前のご予約をお願いいたします。
-      ●ヘナタトゥーは発色が強い肘下、膝下への施術をお勧めします。それ以外の部位は色が極端に薄くなる場合があります。
-      ●施術後は保護テープを貼ってお帰り頂きます。その後汗をかかないように注意しながら5〜8時間ほど放置してください。その後ご自身でテープをはがしヘナのペーストを取り除いて頂く工程があります。そのようなご予定でご予約ください。
-      ●成分/ヘナパウダー、水、砂糖、ユーカリオイル
+    <h3 class="mt30">ヘナタトゥー</h3>
+      <p class="mt10">
+        <ul>
+          <li>ヘナタトゥーはオレンジ〜茶色に染まります。施術してから1〜2日後は鮮やかなオレンジ色になり、3日目くらいから徐々に褐色に色が変化していきます。</li>
+          <li>色持ちは1～2週間ほど(部位差、個人差があります。)新陳代謝の早い人ほど早く色が落ちていきます。</li>
+          <li>施術してから一番濃く発色するまでに3日ほどかかります。
+          旅行やイベントなどでご利用の際には２～３日前の施術をお勧めします。</li>
+          <li>施術時間は10×10㎝サイズで1時間ほどです。</li>
+          <li>ヘナタトゥーは描けるデザインが限定されるため、デザインについてはご相談ください。また、使用するヘナペーストの作成に時間がかかるため3日以上前のご予約をお願いいたします。</li>
+          <li>ヘナタトゥーは発色が強い肘下、膝下への施術をお勧めします。それ以外の部位は色が極端に薄くなる場合があります。</li>
+          <li>施術後は保護テープを貼ってお帰り頂きます。その後汗をかかないように注意しながら5〜8時間ほど放置してください。その後ご自身でテープをはがしヘナのペーストを取り除いて頂く工程があります。そのようなご予定でご予約ください。</li>
+          <li>成分/ヘナパウダー、水、砂糖、ユーカリオイル</li>
+        </ul>
       </p>
-      <!-- <p class="mt10 text-align-left"><a href="/ac/price/">料金詳細はこちら</a></p> -->
     </div>
   </div>
 </div>
-
 
 <a name="price"></a>
 <div class="p-3 p-sm-5 mb-4 n208-title-menu" id="n208-title-menu">
@@ -250,7 +238,7 @@
             </a>
           </div>
           <div class="col-4 price-img price-center-block">
-            Natural body art 208
+            <img src="/assets/img/nba208_sq.png" class="price-image" alt="Natural body art 208">
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑤</span>
@@ -440,7 +428,7 @@
             </a>
           </div>
           <div class="col-4 price-img price-center-block">
-            Natural body art 208
+            <img src="/assets/img/nba208_sq.png" class="price-image" alt="Natural body art 208">
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑪</span>
@@ -656,30 +644,151 @@
   </div>
 </div>
 
+<!--
+■■■■■■   ■■■■■■■   ■■■■  ■■■■■■■  ■■■■■■  ■■■■  ■■■     ■     ■■■■■■■■  ■■■    ■■■■    ■■    ■■■
+ ■    ■   ■    ■  ■   ■   ■    ■   ■    ■   ■    ■      ■■    ■   ■  ■   ■    ■    ■    ■■    ■ 
+ ■    ■   ■       ■       ■        ■    ■   ■    ■     ■ ■        ■      ■   ■■     ■   ■■    ■ 
+ ■    ■   ■       ■■      ■        ■    ■   ■■         ■ ■        ■      ■   ■      ■     ■   ■ 
+ ■   ■    ■■■■     ■■     ■■■■     ■   ■     ■  ■      ■ ■■       ■      ■   ■      ■     ■■  ■ 
+ ■■■■     ■         ■■■   ■        ■■■■      ■  ■         ■       ■      ■   ■      ■      ■■ ■ 
+ ■   ■    ■           ■■  ■        ■   ■     ■■       ■■■■■       ■      ■   ■      ■       ■ ■ 
+ ■   ■■   ■            ■  ■        ■   ■■     ■■      ■   ■■      ■      ■   ■■     ■        ■■ 
+ ■    ■   ■    ■  ■   ■   ■    ■   ■    ■     ■■           ■      ■      ■    ■    ■         ■■ 
+■■■   ■■ ■■■■■■■  ■■■■■  ■■■■■■■  ■■■   ■■    ■     ■■■   ■■■    ■■■    ■■■    ■■■■    ■■■    ■ 
+-->
 <a name="reservation"></a>
-<div class="p-3 p-sm-5 mb-4 n208-menu mt60" id="n208-menu">
+<div class="p-3 p-sm-5 mb-4 n208-title-menu" id="n208-title-menu">
   <h2>Reservation</h2>
 </div>
-<div class="container top-block-02 reservation-menu">
+<div class="container top-block-02 n208t-reservation">
   <div class="row">
-    <div class="col-md-12 col-lg-6 n208-block mt60">
+    <div class="col-md-12 col-lg-6 n208-block">
       <div class="container">
         <div class="row">
-          <div class="col-12 price-img mt60">
-            <a data-bs-toggle="modal" data-bs-target="#modalid_jagua" class="modal-link">
-              <img src="/assets/img/top/top-banner_sm.png" class="price-image" alt="料金 ① 3cm × 3cm以内（2個）">
+          <div class="col-12 price-img">
+            <img src="/assets/img/top/top-banner_sm.png" class="price-image menu-image" alt="ジャグアタトゥー">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 col-lg-6 n208-block">
+      <p class="mt10">
+        <p class="tcntr">ご予約はメールかLINEでお願いします。</p>
+        <p class="tcntr"><img src="/assets/img/reservation/line.jpg" class="price-image menu-image" alt="ジャグアタトゥー"></p>
+        <h3>注意事項</h3>
+        <ul>
+          <li>ジャグアタトゥー、ヘナタトゥーの発色の濃さには個人差があります。</li>
+          <li>当日は施術時に施術部位を露出しやすい服装でおこしください。</li>
+          <li>施術部位の体毛が濃い場合は前日までに剃っておいてください。また、発色の色ムラ防止のためクリームなどは塗らないでお越しください。</li>
+          <li>蕁麻疹が出ている等、傷口や怪我の上からは施術できません。傷跡を隠すための施術についてはご相談ください。</li>
+          <li>日焼けしているお肌に施術すると、皮がむけるのと同時にジャグアタトゥーも剥がれる可能性がある為、強く日焼けをしているお肌への施術はおすすめしておりません。</li>
+          <li>施術後の1〜8時間の間は汗をかかないように注意してください。汗をかくとテープの下でインクが滲み、汚く染まってしまいます。</li>
+          <li>ジャグアタトゥー施術後は1〜8時間後（季節や施術部位により異なります）にご自身で施術部位をシャワーなどで洗い流していただく工程があります。そのようなご予定でご予約ください。</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!--
+    ■        ■■■■■    ■■■■■  ■■■■■■■   ■■■■   ■■■■ 
+    ■■      ■■   ■   ■■   ■   ■    ■  ■   ■  ■   ■ 
+   ■ ■     ■■       ■■        ■       ■      ■     
+   ■ ■     ■        ■         ■       ■■     ■■    
+   ■ ■■    ■        ■         ■■■■     ■■     ■■   
+      ■    ■        ■         ■         ■■■    ■■■ 
+  ■■■■■    ■        ■         ■           ■■     ■■
+  ■   ■■   ■■       ■■        ■            ■      ■
+       ■    ■     ■  ■     ■  ■    ■  ■   ■  ■   ■ 
+■■■   ■■■    ■■■■■    ■■■■■  ■■■■■■■  ■■■■■  ■■■■■ 
+-->
+<a name="access"></a>
+<div class="p-3 p-sm-5 mb-4 n208-title-menu" id="n208-title-menu">
+  <h2>Access</h2>
+</div>
+<div class="container top-block-02 n208t-price">
+  <div class="row">
+    <div class="col-md-12 col-lg-6 n208-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 price-img">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_access_1" class="modal-link">
+              <img src="/assets/img/access/access_1.jpg" class="price-image" alt="料金 ① 3cm × 3cm以内（2個）">
+            </a>
+          </div>
+          <div class="col-6 price-img">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_access_2" class="modal-link">
+              <img src="/assets/img/access/access_2.jpg" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
+            </a>
+          </div>
+          <div class="col-6 price-img price-center-block">
+            <img src="/assets/img/nba208_sq.png" class="price-image" alt="Natural body art 208">
+          </div>
+          <div class="col-6 price-img">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_access_3" class="modal-link">
+              <img src="/assets/img/access/access_3.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
             </a>
           </div>
         </div>
       </div>
     </div>
-    <div class="col-md-12 col-lg-6 n208-block align-items-center">
-      <p class="mt10">ご予約はメールかLINEでお願いします。</p>
-      <!-- <p class="mt10 text-align-left"><a href="/ac/price/">料金詳細はこちら</a></p> -->
+    <div class="modal fade" id="modalid_access_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/access/access_1.jpg" width="100%" alt="なんかコピーライト">
+              <p class="price-caption">なんかコピーライト</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_access_2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/access/access_2.jpg" width="100%" alt="なんかコピーライト">
+              <p class="price-caption">なんかコピーライト</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_access_3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/access/access_3.jpg" width="100%" alt="なんかコピーライト">
+              <p class="price-caption">なんかコピーライト</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12 col-lg-6 price1">
+      <p class="mt10 price-attention">
+      所在地●東京都国分寺市本町3-6-12-ふらっと瀬村206<br>
+      （西武・JR国分寺駅北口から徒歩1分）<br>
+      営業時間●11:00-21:00不定休、完全予約制<br>
+      </p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.734868126137!2d139.47677427369248!3d35.70170826933123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e436fd8d615f%3A0x2a1fc8cd70c45acd!2z44CSMTg1LTAwMTIg5p2x5Lqs6YO95Zu95YiG5a-65biC5pys55S677yT5LiB55uu77yW4oiS77yR77ySIOOBteOCieOBo-OBqOeArOadkeODkeODvOODiO-8kQ!5e0!3m2!1sja!2sjp!4v1644739808162!5m2!1sja!2sjp" style="width:100%;" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </div>
 </div>
-
 
 
 <?php include("inc/footer.php"); ?>
