@@ -55,4 +55,5 @@
 
 	<link rel="stylesheet" href="/assets/css/_main.css" media="screen">
 	<script type="text/javascript" src="/assets/bootstrap5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/assets/js/_main-dist.js"></script>
 </head>
