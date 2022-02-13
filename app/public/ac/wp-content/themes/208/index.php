@@ -2,6 +2,7 @@
 <body>
 
 <?php include("inc/nav.php"); ?>
+
 <div class="p-3 p-sm-5 mb-4 border-top big-banner-top" id="big-banner-top">
   <div class="container">
     <div class="big-banner-top-title">
@@ -22,37 +23,46 @@
   </div>
 </div>
 
+<!--
+  menu
+  price
+    - アフターケア
+  reservation
+    - 注意事項
+  access
+-->
 <div class="p-3 p-sm-5 mb-4 jagua_tattoo-menu">
   <h2 class="h2-208-sp mb20">東京・国分寺駅徒歩１分</h2>
   <div class="menu-block">
     <div class="menu term">
       <?php if(WP_ENV=='local'): ?>
-        <a href="/ac/?page_id=5">Menu</a>
+        <a href="#menu">Menu</a>
       <?php else:?>
-        <a href="/ac/menu/">Menu</a>
+        <a href="#menu">Menu</a>
       <?php endif; ?>
     </div>
     <div class="price term">
       <?php if(WP_ENV=='local'): ?>
-        <a href="/ac/?page_id=7">Price</a>
+        <a href="#price">Price</a>
       <?php else:?>
-        <a href="/ac/price/">Price</a>
+        <a href="#price">Price</a>
       <?php endif; ?>
     </div>
     <div class="reservation term">
       <?php if(WP_ENV=='local'): ?>
-        <a href="/ac/?page_id=9">Reservation</a>
+        <a href="#reservation">Reservation</a>
       <?php else:?>
-        <a href="/ac/reservation/">Reservation</a>
+        <a href="#reservation">Reservation</a>
       <?php endif; ?>
     </div>
     <div class="access term">
       <a href="/ac/access/">Access</a>
     </div>
   </div>
-</div>
+</div><!-- menu end -->
 
-<div class="container top-block-01 top-sns">
+<!-- sns -->
+<div class="container top-block-01 top-sns mb30">
   <div class="row">
     <div class="col-md-12">
       <div class="sns-link">
@@ -61,12 +71,158 @@
       </div>
     </div>
   </div>
+</div><!-- top-sns end -->
+
+
+<a name="menu"></a>
+<div class="p-3 p-sm-5 mb-4 n208-title-menu" id="n208-title-menu">
+  <h2>Menu</h2>
+</div>
+<div class="container top-block-02 n208t-menu">
+  <div class="row">
+    <div class="col-md-12 col-lg-6 n208-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 price-img">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_jagua" class="modal-link">
+              <img src="/assets/img/menu/jagua.jpg" class="price-image menu-image" alt="ジャグアタトゥー">
+            </a>
+          </div>
+          <!-- <div class="col-4 price-img">
+            <span class="img-num">②</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_02" class="modal-link">
+              <img src="/assets/img/top/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
+            </a>
+          </div> -->
+          <!-- <div class="col-4 price-img">
+            <span class="img-num">③</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_03" class="modal-link">
+              <img src="/assets/img/top/price/image-03.jpg#03" class="price-image" alt="料金 5cm × 10cm	¥4,400">
+            </a>
+          </div> -->
+          <!-- <div class="col-4 price-img">
+            <span class="img-num">④</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_04" class="modal-link">
+              <img src="/assets/img/top/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_jagua" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/top/price/image-09.jpg" width="100%" alt="料金 背中大きめサイズ ¥14,300〜19,800">
+              <p class="price-caption">xxxxxxxxxxxxxx</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 col-lg-6 n208-block">
+      <h3 class="mt30">ジャグアタトゥー</h3>
+      <p class="mt20">
+        <ul>
+          <li>●ジャグアタトゥーは紺に近い青色に染まります。</li>
+          <li>●色持ちは1～3週間ほど(部位差、個人差があります。)新陳代謝の早い人ほど早く色が落ちていきます。</li>
+          <li>●施術してから実際に発色するまでに２４～４８時間ほどかかります。
+          旅行やイベントなどでご利用の際には２～３日前の施術をお勧めします。</li>
+          <li>●施術時間は10×10㎝サイズで１時間半ほどです。</li>
+          <li>●施術後は1〜8時間後（季節や施術部位により異なります）にご自身で施術部位をシャワーなどで洗い流していただく工程があります。そのようなご予定でご予約ください。</li>
+          <li>●施術後は洗い流すまでの1〜7時間の間は汗をかかないように、また濡らさないように注意してください。</li>
+          <li>●施術後は保護テープを貼ってお帰り頂くため衣服への色移りなどはありませんが、できるだけ施術部位を締め付けない服装でお越し下さい。</li>
+          <li>● イチゴやナッツなどのバラ科、種子類のアレルギーがある方はアレルギー反応（痒み、腫れなど）を起こす可能性があるため施術が行えません。また敏感肌の方などは添加物の成分に刺激され赤くなる場合があります。</li>
+          <li>●ジャグアタトゥーに使うインクの成分は以下のようになります。
+          成分/ゲニパアメリカーナ(天然染料)、キタサンガム、植物性油、エチルアルコール</li>
+          <li>●染まった時の色の濃さには個人差があります。やや薄く染まる方もいれば、くっきり濃く染まる方もいます。また、同じ人でもその時の肌の状態によって色の出方が変わる場合があります。肌が乾燥気味だったり冷たかったりした場合、またその方の肌質によっては染まりにくい場合があります。</li>
+        </ul>
+      
+      
+      
+      </p>
+      <!-- <p class="mt10 text-align-left"><a href="/ac/price/">料金詳細はこちら</a></p> -->
+    </div>
+  </div>
 </div>
 
-<!--
-<div class="container top-block-02 mt30">
+<div class="container top-block-02">
   <div class="row">
-    <div class="col-md-12 col-lg-6 price price2">
+    <div class="col-md-12 col-lg-6 n208-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 price-img">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_jagua" class="modal-link">
+              <img src="/assets/img/top/price/image-01.jpg#01" class="price-image" alt="料金 ① 3cm × 3cm以内（2個）">
+            </a>
+          </div>
+          <!-- <div class="col-4 price-img">
+            <span class="img-num">②</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_02" class="modal-link">
+              <img src="/assets/img/top/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
+            </a>
+          </div> -->
+          <!-- <div class="col-4 price-img">
+            <span class="img-num">③</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_03" class="modal-link">
+              <img src="/assets/img/top/price/image-03.jpg#03" class="price-image" alt="料金 5cm × 10cm	¥4,400">
+            </a>
+          </div> -->
+          <!-- <div class="col-4 price-img">
+            <span class="img-num">④</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_04" class="modal-link">
+              <img src="/assets/img/top/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_jagua" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/top/price/image-09.jpg" width="100%" alt="料金 背中大きめサイズ ¥14,300〜19,800">
+              <p class="price-caption">xxxxxxxxxxxxxx</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 col-lg-6 n208-block">
+      <h3>ヘナタトゥー</h3>
+      <p class="mt10 price-attention">
+      ●ヘナタトゥーはオレンジ〜茶色に染まります。施術してから1〜2日後は鮮やかなオレンジ色になり、3日目くらいから徐々に褐色に色が変化していきます。
+      ●色持ちは1～2週間ほど(部位差、個人差があります。)新陳代謝の早い人ほど早く色が落ちていきます。
+      ●施術してから一番濃く発色するまでに3日ほどかかります。
+      旅行やイベントなどでご利用の際には２～３日前の施術をお勧めします。
+      ●施術時間は10×10㎝サイズで1時間ほどです。
+      ●ヘナタトゥーは描けるデザインが限定されるため、デザインについてはご相談ください。また、使用するヘナペーストの作成に時間がかかるため3日以上前のご予約をお願いいたします。
+      ●ヘナタトゥーは発色が強い肘下、膝下への施術をお勧めします。それ以外の部位は色が極端に薄くなる場合があります。
+      ●施術後は保護テープを貼ってお帰り頂きます。その後汗をかかないように注意しながら5〜8時間ほど放置してください。その後ご自身でテープをはがしヘナのペーストを取り除いて頂く工程があります。そのようなご予定でご予約ください。
+      ●成分/ヘナパウダー、水、砂糖、ユーカリオイル
+      </p>
+      <!-- <p class="mt10 text-align-left"><a href="/ac/price/">料金詳細はこちら</a></p> -->
+    </div>
+  </div>
+</div>
+
+
+<a name="price"></a>
+<div class="p-3 p-sm-5 mb-4 n208-title-menu" id="n208-title-menu">
+  <h2>Price</h2>
+</div>
+<!-- 1-8 -->
+<div class="container top-block-02 n208t-price">
+  <div class="row">
+    <div class="col-md-12 col-lg-6 n208-block">
       <div class="container">
         <div class="row">
           <div class="col-4 price-img">
@@ -244,10 +400,7 @@
       </div>
     </div>
 
-    <div class="col-md-12 col-lg-6 price price1">
-      <a name="top-price"></a>
-      <h2 class="h2-208 mb20" >施術料金</h2>
-
+    <div class="col-md-12 col-lg-6 price1">
       <table class="mt20 mb30 price-table">
         <tr>
           <th> </th>
@@ -263,13 +416,221 @@
         <tr><td>⑦</td><td>10cm × 20cm</td><td>¥9,900</td></tr>
         <tr><td>⑧</td><td>背中大きめサイズ</td><td>¥14,300〜19,800</td></tr>
       </table>
-
-      <p class="mt10 price-attention">サイズに対しての価格は目安になります。密度の高い柄や塗りつぶしのある柄などは施術に時間がかかるため、料金が高くなることがあります。</p>
-      <p class="mt10 text-align-left"><a href="/ac/price/">料金詳細はこちら</a></p>
+      <!-- <p class="mt10 price-attention">サイズに対しての価格は目安になります。密度の高い柄や塗りつぶしのある柄などは施術に時間がかかるため、料金が高くなることがあります。</p>
+      <p class="mt10 text-align-left"><a href="/ac/price/">料金詳細はこちら</a></p> -->
     </div>
   </div>
 </div>
-    
+<!-- 9-13 -->
+<div class="container top-block-02">
+  <div class="row">
+    <div class="col-md-12 col-lg-6 n208-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 price-img">
+            <span class="img-num">⑨</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_01" class="modal-link">
+              <img src="/assets/img/top/price/image-01.jpg#01" class="price-image" alt="料金 ① 3cm × 3cm以内（2個）">
+            </a>
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">⑩</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_02" class="modal-link">
+              <img src="/assets/img/top/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
+            </a>
+          </div>
+          <div class="col-4 price-img price-center-block">
+            Natural body art 208
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">⑪</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_04" class="modal-link">
+              <img src="/assets/img/top/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
+            </a>
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">⑫</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_05" class="modal-link">
+              <img src="/assets/img/top/price/image-05.jpg" class="price-image" alt="料金 8cm × 20cm ¥8,800">
+            </a>
+          </div>
+          <div class="col-4 price-img">
+            <span class="img-num">⑬</span>
+            <a data-bs-toggle="modal" data-bs-target="#modalid_07" class="modal-link">
+              <img src="/assets/img/top/price/image-07.jpg" class="price-image" alt="料金 10cm × 10cm ¥5,500">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/top/price/image-01.jpg" width="100%" alt="料金 3cm × 3cm以内（2個）">
+              <p class="price-caption">① 3cm × 3cm以内（2個）¥3,300</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/top/price/image-02.jpg" width="100%" alt="料金 5cm × 5cm ¥3,300">
+              <p class="price-caption">② 5cm × 5cm ¥3,300</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_03" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/top/price/image-03.jpg" width="100%" alt="料金  5cm × 10cm ¥4,400">
+              <p class="price-caption">③ 5cm × 10cm ¥4,400</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_04" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/top/price/image-04.jpg" width="100%" alt="料金  5cm × 10cm ¥4,400">
+              <p class="price-caption">④	8cm × 8cm	¥4,400</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_05" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/top/price/image-05.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
+              <p class="price-caption">⑤ 8cm × 20cm ¥8,800</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_07" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/top/price/image-07.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
+              <p class="price-caption">⑥ 10cm × 10cm ¥5,500</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_08" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/top/price/image-08.jpg" width="100%" alt="料金 10cm × 20cm ¥9,900">
+              <p class="price-caption">⑦ 10cm × 20cm ¥9,900</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalid_09" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <img src="/assets/img/top/price/image-09.jpg" width="100%" alt="料金 背中大きめサイズ ¥14,300〜19,800">
+              <p class="price-caption">⑧ 背中大きめサイズ ¥14,300〜19,800</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12 col-lg-6 price1">
+      <table class="mt20 mb30 price-table">
+        <tr>
+          <th> </th>
+          <th>size</th>
+          <th>price</th>
+        </tr>
+        <tr><td>⑨</td><td>7cm × 15cm</td><td>¥5,500</td></tr>
+        <tr><td>⑩</td><td>7cm × 5cm</td><td>¥5,500</td></tr>
+        <tr><td>⑪</td><td>3cm × 手首一周</td><td>¥4,400</td></tr>
+        <tr><td>⑫</td><td>3cm × 10cm</td><td>¥3,300</td></tr>
+        <tr><td>⑬</td><td>1cm × 1cm（オプションのみ）</td><td>¥550</td></tr>
+        <tr><td>⑭</td><td>3cm × 3cm（一個オプションのみ）</td><td>¥1,650</td></tr>
+        <tr><td>⑮</td><td>片腕全体的に</td><td>¥13,200</td></tr>
+        <tr><td>⑯</td><td>片脚全体的に</td><td>¥16,500</td></tr>
+      </table>
+      <p class="mt10 price-attention">①はお二人で分けて頂いてもOKです。⑬⑭はオプションメニューです。単体ではお受けできません。</p>
+      <p class="mt10 price-attention">サイズ、お値段についてのお問い合わせはお気軽にどうぞ！</p>
+      <p class="mt10 price-attention">お問い合わせは、大体でよいのでご希望のデザインやサイズ感が近いタトゥー画像などを送っていただけるとたすかります！</p>
+      <p class="mt10 price-attention">価格は税込みです。</p>
+      <!-- <p class="mt10 text-align-left">サイズ</p> -->
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+  <h3>アフターケアについて</h3>
+    <div class="col-md-12 col-lg-6">
+      ●ジャグアタトゥー、ヘナタトゥーともに施術後の1〜8時間の間は汗をかかないように注意してください。汗をかくとテープの下でインクが滲み、汚く染まってしまいます。
+      万が一、インクが滲んでしまった場合はすぐに保護テープを剥がし、しっかりインクを水やお湯で洗い流してください。そのままにしておくと滲んだまま汚く染まってしまいます。
+      ●ヘナタトゥーは施術してから24時間はできるだけ水に触れないようにしてください。色の定着を妨げることがあります。
+      ●染まった後のジャグアタトゥー、ヘナタトゥーには、ワセリンや重めのクリームなどは塗らないようにしてください。発色が弱くなる可能性があります。施術後３日目以降は植物性のオイル、乳液、日焼け止めのクリームなどは塗ってもOKです。
+      
+    </div>
+    <div class="col-md-12 col-lg-6">
+      
+    ●ジャグアタトゥー、ヘナタトゥーは皮膚の一番上の角質層に着色してますので、皮膚の新陳代謝とともに退色していきます。あまり擦らないように気をつけて頂くと長持ちします。
+      ●ジャグアタトゥー、ヘナタトゥーは紫外線から肌を守る働きがありますので、施術した部分だけが日焼けしません。日焼けした場合、施術したデザインのまま白抜きになってしまうことがあるので、タトゥーが消えるまでは日焼けしないように気をつけてください。施術後3日目以降でしたら日焼け止めを塗ってもOKです。
+      ●染色後のジャグアタトゥー、ヘナタトゥーの上には、タトゥー隠しシールや絆創膏などのテープ類を貼らないようにしてください。剥がす時に角質が剥がれ、デザインが一部消えてしまうことがあります。 
+      </div>
+  </div>
+</div>
+
+
+
 <div class="container top-attention mt100">
   <div class="row">
     <div class="col-md-12 col-lg-6">
@@ -281,22 +642,44 @@
           ＜ジャグアインク内容成分＞<br>
           100%天然植物染料 ゲニパアメリカーナの抽出液、変性アルコール、キサンタンガム、クエン酸、ソルビン酸カリウム、ラベンダーエッセンシャルオイル
         </p>
-
         <h3 class="fs16 mt20">発色・色持ちには個人差アリ</h3>
         <p>乾燥肌や冷えた肌の方は染まり方が弱い場合があります。また、新陳代謝の早い方や皮膚が薄い方は早く退色する傾向もあります。
         それぞれの肌質に合わせて出来る限り最善を尽くしますが、発色、色持ちには個人差がある旨ご理解いただけますようお願いいたします。</p>
     </div>
-
     <div class="col-md-12 col-lg-6">
       <h3 class="fs16 mt20 right-block">予約当日は楽な服装で</h3>
       <p>施術部位を露出しやすい、締めつけない服装で来てください。特に大きめサイズ（2時間以上）の施術の場合は、長時間同じ姿勢でも疲れない服装で来ると楽チンですよ。また、当日は肌にクリームなども塗らずに来てください。体毛が濃いめの方は前日までに剃っておいてくださいね。</p>
-        
       <h3 class="fs16 mt20">施術後1-7時間は汗は✖️！</h3>
       <p>夏場は1-4時間、それ以外の季節は1-7時間、施術後は絶対に汗をかかないように気をつけてください。インクが定着前のジャグアタトゥーは極端に汗に弱く、汗をかくと汚く滲んでしまいます。施術後は涼しい場所で過ごしてください。
         時間がきたら自分でシャワーなどで施術部位を洗い流して頂きます。大体24-48時間後に完全に発色します。洗い流した直後は絵柄がすごく薄くても大丈夫なので心配しないでくださいね。</p>
     </div>
-
   </div>
 </div>
--->
+
+<a name="reservation"></a>
+<div class="p-3 p-sm-5 mb-4 n208-menu mt60" id="n208-menu">
+  <h2>Reservation</h2>
+</div>
+<div class="container top-block-02 reservation-menu">
+  <div class="row">
+    <div class="col-md-12 col-lg-6 n208-block mt60">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 price-img mt60">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_jagua" class="modal-link">
+              <img src="/assets/img/top/top-banner_sm.png" class="price-image" alt="料金 ① 3cm × 3cm以内（2個）">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 col-lg-6 n208-block align-items-center">
+      <p class="mt10">ご予約はメールかLINEでお願いします。</p>
+      <!-- <p class="mt10 text-align-left"><a href="/ac/price/">料金詳細はこちら</a></p> -->
+    </div>
+  </div>
+</div>
+
+
+
 <?php include("inc/footer.php"); ?>

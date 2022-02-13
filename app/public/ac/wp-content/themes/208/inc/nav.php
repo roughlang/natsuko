@@ -14,16 +14,16 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/ac/menu/">Menu</a>
+          <a class="nav-link active" href="#menu">Menu</a>
         </li>
 				<li class="nav-item">
-          <a class="nav-link active" href="/ac/price/">Price</a>
+          <a class="nav-link active" href="#price">Price</a>
         </li>
 				<li class="nav-item">
-          <a class="nav-link active" href="/ac/reservation/">Reservation</a>
+          <a class="nav-link active" href="#reservation">Reservation</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/ac/access/">Access</a>
+          <a class="nav-link active" href="#access">Access</a>
         </li>
 				<li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -32,7 +32,7 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="https://www.instagram.com/natsuko208/?hl=ja" target="_blank">Instagram</a></li>
             <li><a class="dropdown-item" href="https://twitter.com/Mehndi208" target="_blank">Twitter</a></li>
-            <li><a class="dropdown-item" href="#" target="_blank">Something else here</a></li>
+            <!-- <li><a class="dropdown-item" href="#" target="_blank">Something else here</a></li> -->
           </ul>
         </li>
       </ul>

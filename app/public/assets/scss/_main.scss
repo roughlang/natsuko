@@ -135,22 +135,22 @@ body {
 			background: no-repeat url("/assets/img/top/top-banner_xs.png") #000;
 			position: relative;
 			.big-banner-top-title {
-				background-color: rgba(0,0,0,0.4);
+				background-color: rgba(0,0,0,0.3);
 				position: absolute;
 				top: 20px;
 				left: 0;
 				width: 45%;
-				height: 240px;
+				height: 260px;
 				// opacity: 0.4;
 				h1.top-title {
 					color: #fff;
 					font-size: 42px;
-					margin: 40px 14px;
+					margin: 30px 14px;
 				}
 			}
 			.big-banner-top-lead {
 				// background: #000;
-				background-color: rgba(0,0,0,0.4);
+				background-color: rgba(0,0,0,0.3);
 				position: absolute;
 				bottom: 0;
 				right: 0;
@@ -158,10 +158,10 @@ body {
 				height: 240px;
 				// opacity: 0.4;
 				h2.top-lead {
-					margin: 30px 20px;
-					text-align: center;
-					color: #fff;
-					font-size: 20px;
+          margin: 43px 15px;
+          text-align: center;
+          color: #fff;
+          font-size: 20px;
 					.num {
 						font-size: 52px;
 					}
@@ -200,6 +200,26 @@ body {
 			background: url("/assets/img/top/top-banner_xl.png") #000;
 		}
 	}
+  .n208-title-menu {
+    @include set-serif;
+    @media (max-width: 575px) {
+      background: #c1c1c1;
+      letter-spacing: 0.7px;
+      color: #fff;
+      position: absolute;
+      height: 200px;
+      width: 64%;
+      h2 {
+        font-size: 32px;
+      }
+		}
+  }
+  .n208t-menu {
+    margin-top:100px;
+  }
+  .n208t-price {
+    margin-top:65px;
+  }
 	.jagua_tattoo-menu {
 		// background: #333;
 		padding: 0 !important;
@@ -280,7 +300,7 @@ body {
 	}
 
   .top-sns {
-    margin-top: 58px;
+    // margin-top: 58px;
     // background: #c1c1c1;
     text-align: center;
     .sns-link {
@@ -300,7 +320,7 @@ body {
 				@media (max-width: 768px) {
 					font-size: 19px;
 					text-align: center;
-					margin-top: 30px;
+					// margin-top: 30px;
 				}
 			}
 			p {
@@ -309,6 +329,14 @@ body {
 				}
 			}
 			.price-table {
+        border-top: none;
+        border-left: none;
+        
+        tr {
+          th,td {
+            border-right: none;
+          }
+        }
 				@media (max-width: 992px) {
 					margin-right: auto;
 					margin-left: auto;
@@ -318,8 +346,17 @@ body {
 				text-align: left;
 			}
 		}
-		.price2 {
-			// background: #f00;
+		.n208-block {
+      h3 {
+        @include set-serif;
+      }
+      ul {
+        li {
+          // background: #0ff;s
+          list-style: none;
+        }
+      }
+
 			.price-img {
 				position: relative;
 				padding: 0;
@@ -345,6 +382,24 @@ body {
 			}
 		}
 	}
+  //menu
+  .n208-menu {
+    // margin-top: 92px;
+    .n208-block {
+      margin-top: 150px;
+      .menu-image {
+        .price-img {
+          img.menu-image {
+            margin-top: 100px;
+          }
+        }
+      }
+    }
+  }
+
+
+
+
 	.top-attention {
 		line-height: 30px;
 		.right-block {
