@@ -83,19 +83,19 @@
           <!-- <div class="col-4 price-img">
             <span class="img-num">②</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_02" class="modal-link">
-              <img src="/assets/img/top/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
+              <img src="/assets/img/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
             </a>
           </div> -->
           <!-- <div class="col-4 price-img">
             <span class="img-num">③</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_03" class="modal-link">
-              <img src="/assets/img/top/price/image-03.jpg#03" class="price-image" alt="料金 5cm × 10cm	¥4,400">
+              <img src="/assets/img/price/image-03.jpg#03" class="price-image" alt="料金 5cm × 10cm	¥4,400">
             </a>
           </div> -->
           <!-- <div class="col-4 price-img">
             <span class="img-num">④</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_04" class="modal-link">
-              <img src="/assets/img/top/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
+              <img src="/assets/img/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
             </a>
           </div> -->
         </div>
@@ -151,19 +151,19 @@
           <!-- <div class="col-4 price-img">
             <span class="img-num">②</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_02" class="modal-link">
-              <img src="/assets/img/top/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
+              <img src="/assets/img/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
             </a>
           </div> -->
           <!-- <div class="col-4 price-img">
             <span class="img-num">③</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_03" class="modal-link">
-              <img src="/assets/img/top/price/image-03.jpg#03" class="price-image" alt="料金 5cm × 10cm	¥4,400">
+              <img src="/assets/img/price/image-03.jpg#03" class="price-image" alt="料金 5cm × 10cm	¥4,400">
             </a>
           </div> -->
           <!-- <div class="col-4 price-img">
             <span class="img-num">④</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_04" class="modal-link">
-              <img src="/assets/img/top/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
+              <img src="/assets/img/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
             </a>
           </div> -->
         </div>
@@ -216,25 +216,25 @@
           <div class="col-4 price-img">
             <span class="img-num">①</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_01" class="modal-link">
-              <img src="/assets/img/top/price/image-01.jpg#01" class="price-image" alt="料金 ① 3cm × 3cm以内（2個）">
+              <img src="/assets/img/price/image-01.jpg#01" class="price-image" alt="料金 ① 3cm × 3cm以内（2個）">
             </a>
           </div>
           <div class="col-4 price-img">
             <span class="img-num">②</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_02" class="modal-link">
-              <img src="/assets/img/top/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
+              <img src="/assets/img/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
             </a>
           </div>
           <div class="col-4 price-img">
             <span class="img-num">③</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_03" class="modal-link">
-              <img src="/assets/img/top/price/image-03.jpg#03" class="price-image" alt="料金 5cm × 10cm	¥4,400">
+              <img src="/assets/img/price/image-03.jpg#03" class="price-image" alt="料金 5cm × 10cm	¥4,400">
             </a>
           </div>
           <div class="col-4 price-img">
             <span class="img-num">④</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_04" class="modal-link">
-              <img src="/assets/img/top/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
+              <img src="/assets/img/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
             </a>
           </div>
           <div class="col-4 price-img price-center-block">
@@ -243,25 +243,25 @@
           <div class="col-4 price-img">
             <span class="img-num">⑤</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_05" class="modal-link">
-              <img src="/assets/img/top/price/image-05.jpg" class="price-image" alt="料金 8cm × 20cm ¥8,800">
+              <img src="/assets/img/price/image-05.jpg" class="price-image" alt="料金 8cm × 20cm ¥8,800">
             </a>
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑥</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_07" class="modal-link">
-              <img src="/assets/img/top/price/image-07.jpg" class="price-image" alt="料金 10cm × 10cm ¥5,500">
+              <img src="/assets/img/price/image-06.jpg" class="price-image" alt="料金 10cm × 10cm ¥5,500">
             </a>
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑦</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_08" class="modal-link">
-              <img src="/assets/img/top/price/image-08.jpg" class="price-image" alt="jagua-image">
+              <img src="/assets/img/price/image-07.jpg" class="price-image" alt="jagua-image">
             </a>
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑧</span>
             <a data-bs-toggle="modal" data-bs-target="#modalid_09" class="modal-link">
-              <img src="/assets/img/top/price/image-09.jpg" class="price-image" alt="jagua-image">
+              <img src="/assets/img/price/image-08.jpg" class="price-image" alt="jagua-image">
             </a>
           </div>
         </div>
@@ -275,7 +275,7 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-01.jpg" width="100%" alt="料金 3cm × 3cm以内（2個）">
+              <img src="/assets/img/price/image-01.jpg" width="100%" alt="料金 3cm × 3cm以内（2個）">
               <p class="price-caption">① 3cm × 3cm以内（2個）¥3,300</p>
             </p>
           </div>
@@ -290,7 +290,7 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-02.jpg" width="100%" alt="料金 5cm × 5cm ¥3,300">
+              <img src="/assets/img/price/image-02.jpg" width="100%" alt="料金 5cm × 5cm ¥3,300">
               <p class="price-caption">② 5cm × 5cm ¥3,300</p>
             </p>
           </div>
@@ -305,7 +305,7 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-03.jpg" width="100%" alt="料金  5cm × 10cm ¥4,400">
+              <img src="/assets/img/price/image-03.jpg" width="100%" alt="料金  5cm × 10cm ¥4,400">
               <p class="price-caption">③ 5cm × 10cm ¥4,400</p>
             </p>
           </div>
@@ -320,8 +320,8 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-04.jpg" width="100%" alt="料金  5cm × 10cm ¥4,400">
-              <p class="price-caption">④	8cm × 8cm	¥4,400</p>
+              <img src="/assets/img/price/image-04.jpg" width="100%" alt="料金  5cm × 10cm ¥4,400">
+              <p class="price-caption">④ 8cm × 8cm	¥4,400</p>
             </p>
           </div>
         </div>
@@ -335,7 +335,7 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-05.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
+              <img src="/assets/img/price/image-05.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
               <p class="price-caption">⑤ 8cm × 20cm ¥8,800</p>
             </p>
           </div>
@@ -350,7 +350,7 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-07.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
+              <img src="/assets/img/price/image-06.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
               <p class="price-caption">⑥ 10cm × 10cm ¥5,500</p>
             </p>
           </div>
@@ -365,7 +365,7 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-08.jpg" width="100%" alt="料金 10cm × 20cm ¥9,900">
+              <img src="/assets/img/price/image-07.jpg" width="100%" alt="料金 10cm × 20cm ¥9,900">
               <p class="price-caption">⑦ 10cm × 20cm ¥9,900</p>
             </p>
           </div>
@@ -380,7 +380,7 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-09.jpg" width="100%" alt="料金 背中大きめサイズ ¥14,300〜19,800">
+              <img src="/assets/img/price/image-08.jpg" width="100%" alt="料金 背中大きめサイズ ¥14,300〜19,800">
               <p class="price-caption">⑧ 背中大きめサイズ ¥14,300〜19,800</p>
             </p>
           </div>
@@ -417,14 +417,14 @@
         <div class="row">
           <div class="col-4 price-img">
             <span class="img-num">⑨</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_01" class="modal-link">
-              <img src="/assets/img/top/price/image-01.jpg#01" class="price-image" alt="料金 ① 3cm × 3cm以内（2個）">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_09" class="modal-link">
+              <img src="/assets/img/price/image-09.jpg#09" class="price-image" alt="料金 ⑨ 7cm × 15cm ¥5,500">
             </a>
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑩</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_02" class="modal-link">
-              <img src="/assets/img/top/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_10" class="modal-link">
+              <img src="/assets/img/price/image-10.jpg#10" class="price-image" alt="料金 ⑩ 7cm × 5cm ¥5,500">
             </a>
           </div>
           <div class="col-4 price-img price-center-block">
@@ -432,26 +432,26 @@
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑪</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_04" class="modal-link">
-              <img src="/assets/img/top/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_11" class="modal-link">
+              <img src="/assets/img/price/image-11.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
             </a>
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑫</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_05" class="modal-link">
-              <img src="/assets/img/top/price/image-05.jpg" class="price-image" alt="料金 8cm × 20cm ¥8,800">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_12" class="modal-link">
+              <img src="/assets/img/price/image-12.jpg" class="price-image" alt="料金 3cm × 10cm ¥3,300">
             </a>
           </div>
           <div class="col-4 price-img">
             <span class="img-num">⑬</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_07" class="modal-link">
-              <img src="/assets/img/top/price/image-07.jpg" class="price-image" alt="料金 10cm × 10cm ¥5,500">
+            <a data-bs-toggle="modal" data-bs-target="#modalid_13" class="modal-link">
+              <img src="/assets/img/price/image-13.jpg" class="price-image" alt="料金 1cm × 1cm（オプションのみ） ¥550">
             </a>
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade" id="modalid_01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalid_09" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
@@ -459,14 +459,14 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-01.jpg" width="100%" alt="料金 3cm × 3cm以内（2個）">
-              <p class="price-caption">① 3cm × 3cm以内（2個）¥3,300</p>
+              <img src="/assets/img/price/image-09.jpg" width="100%" alt="料金 ⑨ 7cm × 15cm ¥5,500">
+              <p class="price-caption">⑨ 7cm × 15cm ¥5,500</p>
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade" id="modalid_02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalid_10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
@@ -474,14 +474,14 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-02.jpg" width="100%" alt="料金 5cm × 5cm ¥3,300">
-              <p class="price-caption">② 5cm × 5cm ¥3,300</p>
+              <img src="/assets/img/price/image-10.jpg" width="100%" alt="料金 ⑩ 7cm × 5cm ¥5,500">
+              <p class="price-caption">⑩ 7cm × 5cm ¥5,500</p>
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade" id="modalid_03" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalid_11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
@@ -489,14 +489,14 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-03.jpg" width="100%" alt="料金  5cm × 10cm ¥4,400">
-              <p class="price-caption">③ 5cm × 10cm ¥4,400</p>
+              <img src="/assets/img/price/image-11.jpg" width="100%" alt="料金 ⑪ 3cm × 手首一周 ¥4,400">
+              <p class="price-caption">⑪ 3cm × 手首一周 ¥4,400</p>
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade" id="modalid_04" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalid_12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
@@ -504,14 +504,14 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-04.jpg" width="100%" alt="料金  5cm × 10cm ¥4,400">
-              <p class="price-caption">④	8cm × 8cm	¥4,400</p>
+              <img src="/assets/img/price/image-12.jpg" width="100%" alt="料金 ⑫ 3cm × 10cm ¥3,300">
+              <p class="price-caption">⑫ 3cm × 10cm ¥3,300</p>
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="modal fade" id="modalid_05" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalid_13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
@@ -519,8 +519,8 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-05.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
-              <p class="price-caption">⑤ 8cm × 20cm ¥8,800</p>
+              <img src="/assets/img/price/image-13.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
+              <p class="price-caption">⑬ 1cm × 1cm（オプションのみ） ¥550</p>
             </p>
           </div>
         </div>
@@ -534,7 +534,7 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-07.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
+              <img src="/assets/img/price/image-07.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
               <p class="price-caption">⑥ 10cm × 10cm ¥5,500</p>
             </p>
           </div>
@@ -549,7 +549,7 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-08.jpg" width="100%" alt="料金 10cm × 20cm ¥9,900">
+              <img src="/assets/img/price/image-08.jpg" width="100%" alt="料金 10cm × 20cm ¥9,900">
               <p class="price-caption">⑦ 10cm × 20cm ¥9,900</p>
             </p>
           </div>
@@ -564,7 +564,7 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/top/price/image-09.jpg" width="100%" alt="料金 背中大きめサイズ ¥14,300〜19,800">
+              <img src="/assets/img/price/image-09.jpg" width="100%" alt="料金 背中大きめサイズ ¥14,300〜19,800">
               <p class="price-caption">⑧ 背中大きめサイズ ¥14,300〜19,800</p>
             </p>
           </div>
