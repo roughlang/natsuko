@@ -6,6 +6,10 @@ source ./.env
 
 if [ $APP_ENV = 'local' ]; then
   echo 'ENV::'$APP_ENV;
+    find ./ -name "* 2.php" -type f -exec rm -f {} +;
+    find ./ -name "* 3.php" -type f -exec rm -f {} +;
+    find ./ -name "* 4.php" -type f -exec rm -f {} +;
+    find ./ -name "* 5.php" -type f -exec rm -f {} +;
     # composer
     ./vendor/bin/sail php composer.phar update;
     # laravel
@@ -14,32 +18,34 @@ if [ $APP_ENV = 'local' ]; then
     ./vendor/bin/sail artisan view:cache;
     ./vendor/bin/sail php composer.phar dump-autoload;
     
-elif [ $APP_ENV = 'stg' ]; then
-  echo 'ENV::stg';
+elif [ $APP_ENV = 'dev' ]; then
+  echo 'ENV::dev';
 
     # composer
-    /usr/local/php/7.4/bin/php composer.phar update;
+    /usr/local/php/8.1/bin/php composer.phar update;
     # laravel
-    /usr/local/php/7.4/bin/php artisan optimize:clear;
-    /usr/local/php/7.4/bin/php artisan optimize;
-    /usr/local/php/7.4/bin/php artisan view:cache;
-    /usr/local/php/7.4/bin/php composer.phar dump-autoload --optimize
+    /usr/local/php/8.1/bin/php artisan clear-compiled;
+    /usr/local/php/8.1/bin/php artisan clear;
+    /usr/local/php/8.1/bin/php artisan cache:clear;
+    /usr/local/php/8.1/bin/php artisan view:clear;
+    /usr/local/php/8.1/bin/php artisan route:clear;
+    /usr/local/php/8.1/bin/php artisan config:clear;
     # schedule(cron)
-    /usr/local/php/7.4/bin/php artisan schedule:run;
+    /usr/local/php/8.1/bin/php artisan schedule:run;
 else
   echo 'ENV::prod';
 
     # composer
-    /usr/local/php/7.4/bin/php composer.phar update;
+    /usr/local/php/8.1/bin/php composer.phar update;
     # laravel
-    /usr/local/php/7.4/bin/php artisan clear-compiled;
-    /usr/local/php/7.4/bin/php artisan clear;
-    /usr/local/php/7.4/bin/php artisan cache:clear;
-    /usr/local/php/7.4/bin/php artisan view:clear;
-    /usr/local/php/7.4/bin/php artisan route:clear;
-    /usr/local/php/7.4/bin/php artisan config:clear;
+    /usr/local/php/8.1/bin/php artisan clear-compiled;
+    /usr/local/php/8.1/bin/php artisan clear;
+    /usr/local/php/8.1/bin/php artisan cache:clear;
+    /usr/local/php/8.1/bin/php artisan view:clear;
+    /usr/local/php/8.1/bin/php artisan route:clear;
+    /usr/local/php/8.1/bin/php artisan config:clear;
     # schedule(cron)
-    /usr/local/php/7.4/bin/php artisan schedule:run;
+    /usr/local/php/8.1/bin/php artisan schedule:run;
 fi
 
 # /usr/local/php/7.4/bin/php composer.phar update
