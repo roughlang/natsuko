@@ -15,6 +15,7 @@ md ≥768px
 lg ≥992px
 xl ≥1200px
 */
+
 @mixin set-serif {
   font-family: Georgia, serif !important;
 	letter-spacing: 0.7px;
@@ -361,7 +362,7 @@ body {
         @include set-serif;
       }
       ul {
-        padding: 18px;
+        // padding: 18px;
         li {
           // background: #0ff;s
           list-style: none;

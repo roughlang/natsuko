@@ -115,6 +115,9 @@
           <li>施術してから実際に発色するまでに２４～４８時間ほどかかります。
           旅行やイベントなどでご利用の際には２～３日前の施術をお勧めします。</li>
           <li>施術時間は10×10㎝サイズで１時間半ほどです。</li>
+        </ul>
+        <button id="more_jagua_menu_button" type="button" class="btn btn-light mb20">more detail</button>
+        <ul id="more_jagua_menu_content" class="mb60">
           <li>施術後は1〜8時間後（季節や施術部位により異なります）にご自身で施術部位をシャワーなどで洗い流していただく工程があります。そのようなご予定でご予約ください。</li>
           <li>施術後は洗い流すまでの1〜7時間の間は汗をかかないように、また濡らさないように注意してください。</li>
           <li>施術後は保護テープを貼ってお帰り頂くため衣服への色移りなどはありませんが、できるだけ施術部位を締め付けない服装でお越し下さい。</li>
@@ -138,24 +141,6 @@
               <img src="/assets/img/menu/hena.jpg" class="price-image" alt="ヘナタトゥー">
             </a>
           </div>
-          <!-- <div class="col-4 price-img">
-            <span class="img-num">②</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_02" class="modal-link">
-              <img src="/assets/img/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
-            </a>
-          </div> -->
-          <!-- <div class="col-4 price-img">
-            <span class="img-num">③</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_03" class="modal-link">
-              <img src="/assets/img/price/image-03.jpg#03" class="price-image" alt="料金 5cm × 10cm	¥4,400">
-            </a>
-          </div> -->
-          <!-- <div class="col-4 price-img">
-            <span class="img-num">④</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_04" class="modal-link">
-              <img src="/assets/img/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
-            </a>
-          </div> -->
         </div>
       </div>
     </div>
@@ -183,6 +168,9 @@
           <li>施術してから一番濃く発色するまでに3日ほどかかります。
           旅行やイベントなどでご利用の際には２～３日前の施術をお勧めします。</li>
           <li>施術時間は10×10㎝サイズで1時間ほどです。</li>
+        </ul>
+        <button id="more_henna_menu_button" type="button" class="btn btn-light mb20">more detail</button>
+        <ul id="more_henna_menu_content" class="mb60">
           <li>ヘナタトゥーは描けるデザインが限定されるため、デザインについてはご相談ください。また、使用するヘナペーストの作成に時間がかかるため3日以上前のご予約をお願いいたします。</li>
           <li>ヘナタトゥーは発色が強い肘下、膝下への施術をお勧めします。それ以外の部位は色が極端に薄くなる場合があります。</li>
           <li>施術後は保護テープを貼ってお帰り頂きます。その後汗をかかないように注意しながら5〜8時間ほど放置してください。その後ご自身でテープをはがしヘナのペーストを取り除いて頂く工程があります。そのようなご予定でご予約ください。</li>
@@ -603,7 +591,8 @@
         <li>染まった後のジャグアタトゥー、ヘナタトゥーには、ワセリンや重めのクリームなどは塗らないようにしてください。発色が弱くなる可能性があります。施術後３日目以降は植物性のオイル、乳液、日焼け止めのクリームなどは塗ってもOKです。</li>
       </ul>
     </div>
-    <div class="col-md-12 col-lg-6">
+    <button id="more_aftercare_menu_button" type="button" class="btn btn-light mb30">more detail</button>
+    <div id="more_aftercare_menu_content" class="col-md-12 col-lg-6 mb60">
       <ul>
         <li>ジャグアタトゥー、ヘナタトゥーは皮膚の一番上の角質層に着色してますので、皮膚の新陳代謝とともに退色していきます。あまり擦らないように気をつけて頂くと長持ちします。</li>
         <li>ジャグアタトゥー、ヘナタトゥーは紫外線から肌を守る働きがありますので、施術した部分だけが日焼けしません。日焼けした場合、施術したデザインのまま白抜きになってしまうことがあるので、タトゥーが消えるまでは日焼けしないように気をつけてください。施術後3日目以降でしたら日焼け止めを塗ってもOKです。</li>
