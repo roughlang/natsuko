@@ -16,12 +16,6 @@
         Jagua tattoo<br>◎<br>Henna tattoo
       </h2>
     </div>
-    <!-- <h1 class="display-4">Natural body art 208</h1> -->
-    <!-- <p class="lead">天然染料で染める、<br class="lead-br">2週間で消える<br class="lead-br">ジャグアタトゥー &ヘナタトゥー<br><br class="lead-br">東京・JR国分寺駅から徒歩１分</p> -->
-    <!-- <p class="sub-lead"></p> -->
-    <!-- <hr class="my-4"> -->
-    <p><!--東京・JR国分寺駅から徒歩1分--></p>
-    <!-- <a class="btn btn-dark btn-lg reservation-btn" href="#" role="button">Reservation</a> -->
   </div>
 </div>
 
@@ -29,14 +23,14 @@
   <h2 class="h2-208-sp mb20">東京・国分寺駅徒歩１分</h2>
   <div class="menu-block">
     <div class="menu term">
-              <a href="#menu">Menu</a>
-          </div>
+      <a href="#menu">Menu</a>
+    </div>
     <div class="price term">
-              <a href="#price">Price</a>
-          </div>
+      <a href="#price">Price</a>
+    </div>
     <div class="reservation term">
-              <a href="#reservation">Reservation</a>
-          </div>
+      <a href="#reservation">Reservation</a>
+    </div>
     <div class="access term">
       <a href="/ac/access/">Access</a>
     </div>
@@ -70,24 +64,6 @@
               <img src="/assets/img/menu/jagua.jpg" class="price-image menu-image" alt="ジャグアタトゥー">
             </a>
           </div>
-          <!-- <div class="col-4 price-img">
-            <span class="img-num">②</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_02" class="modal-link">
-              <img src="/assets/img/price/image-02.jpg#02" class="price-image" alt="料金 ②	5cm × 5cm	¥3,300">
-            </a>
-          </div> -->
-          <!-- <div class="col-4 price-img">
-            <span class="img-num">③</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_03" class="modal-link">
-              <img src="/assets/img/price/image-03.jpg#03" class="price-image" alt="料金 5cm × 10cm	¥4,400">
-            </a>
-          </div> -->
-          <!-- <div class="col-4 price-img">
-            <span class="img-num">④</span>
-            <a data-bs-toggle="modal" data-bs-target="#modalid_04" class="modal-link">
-              <img src="/assets/img/price/image-04.jpg" class="price-image" alt="料金 8cm × 8cm ¥4,400">
-            </a>
-          </div> -->
         </div>
       </div>
     </div>
@@ -269,7 +245,7 @@
           <div class="modal-body">
             <p>
               <img src="/assets/img/price/image-02.jpg" width="100%" alt="料金 5cm × 5cm ¥3,300">
-              <p class="price-caption">② 5cm × 5cm ¥3,300</p>
+              <p class="price-caption">② 5cm × 5cm ¥4,400</p>
             </p>
           </div>
         </div>
@@ -284,7 +260,7 @@
           <div class="modal-body">
             <p>
               <img src="/assets/img/price/image-03.jpg" width="100%" alt="料金  5cm × 10cm ¥4,400">
-              <p class="price-caption">③ 5cm × 10cm ¥4,400</p>
+              <p class="price-caption">③ 5cm × 10cm ¥5,500</p>
             </p>
           </div>
         </div>
@@ -299,7 +275,7 @@
           <div class="modal-body">
             <p>
               <img src="/assets/img/price/image-04.jpg" width="100%" alt="料金  5cm × 10cm ¥4,400">
-              <p class="price-caption">④ 8cm × 8cm	¥4,400</p>
+              <p class="price-caption">④ 8cm × 8cm	¥5,500</p>
             </p>
           </div>
         </div>
@@ -314,7 +290,7 @@
           <div class="modal-body">
             <p>
               <img src="/assets/img/price/image-05.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
-              <p class="price-caption">⑤ 8cm × 20cm ¥8,800</p>
+              <p class="price-caption">⑤ 8cm × 20cm ¥11,000</p>
             </p>
           </div>
         </div>
@@ -329,7 +305,7 @@
           <div class="modal-body">
             <p>
               <img src="/assets/img/price/image-06.jpg" width="100%" alt="料金 8cm × 20cm	¥8,800">
-              <p class="price-caption">⑥ 10cm × 10cm ¥5,500</p>
+              <p class="price-caption">⑥ 10cm × 10cm ¥7,700</p>
             </p>
           </div>
         </div>
@@ -344,7 +320,7 @@
           <div class="modal-body">
             <p>
               <img src="/assets/img/price/image-07.jpg" width="100%" alt="料金 10cm × 20cm ¥9,900">
-              <p class="price-caption">⑦ 10cm × 20cm ¥9,900</p>
+              <p class="price-caption">⑦ 10cm × 20cm ¥13,200</p>
             </p>
           </div>
         </div>
@@ -359,7 +335,7 @@
           <div class="modal-body">
             <p>
               <img src="/assets/img/price/image-08.jpg" width="100%" alt="料金 背中大きめサイズ ¥14,300〜19,800">
-              <p class="price-caption">⑧ 背中大きめサイズ ¥14,300〜19,800</p>
+              <p class="price-caption">⑧ 背中大きめサイズ ¥16,500〜22,000</p>
             </p>
           </div>
         </div>
@@ -374,19 +350,19 @@
           <th>price</th>
         </tr>
         <tr><td>①</td><td>3cm × 3cm以内（2個）</td><td>¥3,300</td></tr>
-        <tr><td>②</td><td>5cm × 5cm</td><td>¥3,300</td></tr>
-        <tr><td>③</td><td>5cm × 10cm</td><td>¥4,400</td></tr>
-        <tr><td>④</td><td>8cm × 8cm</td><td>¥4,400</td></tr>
-        <tr><td>⑤</td><td>8cm × 20cm</td><td>¥8,800</td></tr>
-        <tr><td>⑥</td><td>10cm × 10cm</td><td>¥5,500</td></tr>
-        <tr><td>⑦</td><td>10cm × 20cm</td><td>¥9,900</td></tr>
-        <tr><td>⑧</td><td>背中大きめサイズ</td><td>¥14,300〜19,800</td></tr>
+        <tr><td>②</td><td>5cm × 5cm</td><td>¥4,400</td></tr>
+        <tr><td>③</td><td>5cm × 10cm</td><td>¥5,500</td></tr>
+        <tr><td>④</td><td>8cm × 8cm</td><td>¥5,500</td></tr>
+        <tr><td>⑤</td><td>8cm × 20cm</td><td>¥11,000</td></tr>
+        <tr><td>⑥</td><td>10cm × 10cm</td><td>¥7,700</td></tr>
+        <tr><td>⑦</td><td>10cm × 20cm</td><td>¥13,200</td></tr>
+        <tr><td>⑧</td><td>背中大きめ</td><td>¥16,500〜22,000</td></tr>
       </table>
       <ul>
+        <li>価格は税込です。</li>
         <li>①はお二人で分けて頂いてもOKです。</li>
-        <li>サイズ、お値段についてのお問い合わせはお気軽にどうぞ！</li>
-        <li>お問い合わせは、大体でよいのでご希望のデザインやサイズ感が近いタトゥー画像などを送っていただけるとたすかります！</li>
-        <li>価格は税込みです。</li>
+        <li>塗り潰しの多いデザインや緻密なデザインは値段が高くなることがあります。</li>
+        <li>サイズや料金についてのお問い合わせはお気軽にどうぞ！その際、サイズ感がイメージに近いタトゥー画像など送って頂けるとスムーズです。</li>
       </ul>
       <p class="mt10 mb40">
         <button id="more_price_button" type="button" class="btn btn-secondary">もっと料金をみる</button>
@@ -564,22 +540,24 @@
           <th>size</th>
           <th>price</th>
         </tr>
-        <tr><td>⑨</td><td>7cm × 15cm</td><td>¥5,500</td></tr>
-        <tr><td>⑩</td><td>7cm × 5cm</td><td>¥5,500</td></tr>
-        <tr><td>⑪</td><td>3cm × 手首一周</td><td>¥4,400</td></tr>
-        <tr><td>⑫</td><td>3cm × 10cm</td><td>¥3,300</td></tr>
-        <tr><td>⑬</td><td>1cm × 1cm（オプションのみ）</td><td>¥550</td></tr>
+        <tr><td>⑨</td><td>6cm程度の細めデザインは3×3と同じ扱いになります</td><td>¥3,300</td></tr>
+        <tr><td>⑩</td><td>7cm × 15cm</td><td>¥7,700</td></tr>
+        <tr><td>⑪</td><td>3cm × 手首一周</td><td>¥6,050</td></tr>
+        <tr><td>⑫</td><td>3cm × 10cm</td><td>¥4,950</td></tr>
+        <tr><td>⑬</td><td>1cm × 1cm（オプションのみ）</td><td>¥1,100</td></tr>
         <tr><td>⑭</td><td>3cm × 3cm（一個オプションのみ）</td><td>¥1,650</td></tr>
-        <tr><td>⑮</td><td>片腕全体的に</td><td>¥13,200</td></tr>
-        <tr><td>⑯</td><td>片脚全体的に</td><td>¥16,500</td></tr>
+        <tr><td>⑮</td><td>片腕全体的に</td><td>¥16,500〜¥22,000</td></tr>
+        <tr><td>⑯</td><td>片脚全体的に</td><td>¥16,500〜¥22,000</td></tr>
       </table>
       <ul>
+        <li>価格は税込です。</li>
         <li>⑬⑭はオプションメニューです。単体ではお受けできません。</li>
+        <li>塗り潰しの多いデザインや緻密なデザインは値段が高くなることがあります。</li>
+        <li>サイズや料金についてのお問い合わせはお気軽にどうぞ！その際、サイズ感がイメージに近いタトゥー画像など送って頂けるとスムーズです。</li>
       </ul>
     </div>
   </div>
 </div>
-
 
 <div class="container">
   <div class="row">
@@ -602,45 +580,6 @@
   </div>
 </div>
 
-
-
-<!-- <div class="container top-attention mt100">
-  <div class="row">
-    <div class="col-md-12 col-lg-6">
-      <a name="top-attention"></a>
-      <h2 class="h2-208 mb20" >注意事項</h2>
-        <h3 class="fs16 mt20">アレルギーに注意！</h3>
-        <p>イチゴやピーナッツ、アルコール、また以下の成分にアレルギーがある方は施術はしないでください。</p>
-        <p>
-          ＜ジャグアインク内容成分＞<br>
-          100%天然植物染料 ゲニパアメリカーナの抽出液、変性アルコール、キサンタンガム、クエン酸、ソルビン酸カリウム、ラベンダーエッセンシャルオイル
-        </p>
-        <h3 class="fs16 mt20">発色・色持ちには個人差アリ</h3>
-        <p>乾燥肌や冷えた肌の方は染まり方が弱い場合があります。また、新陳代謝の早い方や皮膚が薄い方は早く退色する傾向もあります。
-        それぞれの肌質に合わせて出来る限り最善を尽くしますが、発色、色持ちには個人差がある旨ご理解いただけますようお願いいたします。</p>
-    </div>
-    <div class="col-md-12 col-lg-6">
-      <h3 class="fs16 mt20 right-block">予約当日は楽な服装で</h3>
-      <p>施術部位を露出しやすい、締めつけない服装で来てください。特に大きめサイズ（2時間以上）の施術の場合は、長時間同じ姿勢でも疲れない服装で来ると楽チンですよ。また、当日は肌にクリームなども塗らずに来てください。体毛が濃いめの方は前日までに剃っておいてくださいね。</p>
-      <h3 class="fs16 mt20">施術後1-7時間は汗は✖️！</h3>
-      <p>夏場は1-4時間、それ以外の季節は1-7時間、施術後は絶対に汗をかかないように気をつけてください。インクが定着前のジャグアタトゥーは極端に汗に弱く、汗をかくと汚く滲んでしまいます。施術後は涼しい場所で過ごしてください。
-        時間がきたら自分でシャワーなどで施術部位を洗い流して頂きます。大体24-48時間後に完全に発色します。洗い流した直後は絵柄がすごく薄くても大丈夫なので心配しないでくださいね。</p>
-    </div>
-  </div>
-</div> -->
-
-<!--
-■■■■■■   ■■■■■■■   ■■■■  ■■■■■■■  ■■■■■■  ■■■■  ■■■     ■     ■■■■■■■■  ■■■    ■■■■    ■■    ■■■
- ■    ■   ■    ■  ■   ■   ■    ■   ■    ■   ■    ■      ■■    ■   ■  ■   ■    ■    ■    ■■    ■ 
- ■    ■   ■       ■       ■        ■    ■   ■    ■     ■ ■        ■      ■   ■■     ■   ■■    ■ 
- ■    ■   ■       ■■      ■        ■    ■   ■■         ■ ■        ■      ■   ■      ■     ■   ■ 
- ■   ■    ■■■■     ■■     ■■■■     ■   ■     ■  ■      ■ ■■       ■      ■   ■      ■     ■■  ■ 
- ■■■■     ■         ■■■   ■        ■■■■      ■  ■         ■       ■      ■   ■      ■      ■■ ■ 
- ■   ■    ■           ■■  ■        ■   ■     ■■       ■■■■■       ■      ■   ■      ■       ■ ■ 
- ■   ■■   ■            ■  ■        ■   ■■     ■■      ■   ■■      ■      ■   ■■     ■        ■■ 
- ■    ■   ■    ■  ■   ■   ■    ■   ■    ■     ■■           ■      ■      ■    ■    ■         ■■ 
-■■■   ■■ ■■■■■■■  ■■■■■  ■■■■■■■  ■■■   ■■    ■     ■■■   ■■■    ■■■    ■■■    ■■■■    ■■■    ■ 
--->
 <a name="reservation"></a>
 <div class="p-3 p-sm-5 mb-4 n208-title-menu" id="n208-title-menu">
   <h2>Reservation</h2>
@@ -679,19 +618,6 @@
   </div>
 </div>
 
-
-<!--
-    ■        ■■■■■    ■■■■■  ■■■■■■■   ■■■■   ■■■■ 
-    ■■      ■■   ■   ■■   ■   ■    ■  ■   ■  ■   ■ 
-   ■ ■     ■■       ■■        ■       ■      ■     
-   ■ ■     ■        ■         ■       ■■     ■■    
-   ■ ■■    ■        ■         ■■■■     ■■     ■■   
-      ■    ■        ■         ■         ■■■    ■■■ 
-  ■■■■■    ■        ■         ■           ■■     ■■
-  ■   ■■   ■■       ■■        ■            ■      ■
-       ■    ■     ■  ■     ■  ■    ■  ■   ■  ■   ■ 
-■■■   ■■■    ■■■■■    ■■■■■  ■■■■■■■  ■■■■■  ■■■■■ 
--->
 <a name="access"></a>
 <div class="p-3 p-sm-5 mb-4 n208-title-menu" id="n208-title-menu">
   <h2>Access</h2>
@@ -769,10 +695,11 @@
     </div>
 
     <div class="col-md-12 col-lg-6 price1">
-      <p class="mt10 price-attention">
+      <p class="mt30 price-attention">
       所在地●東京都国分寺市本町3-6-12-ふらっと瀬村206<br>
-      （西武・JR国分寺駅北口から徒歩1分）<br>
-      営業時間●11:00-21:00不定休、完全予約制<br>
+      （西武・JR国分寺駅北口から徒歩1分）</p>
+      <p class="price-attention">
+      営業時間●11:00-21:00不定休、完全予約制
       </p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.734868126137!2d139.47677427369248!3d35.70170826933123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e436fd8d615f%3A0x2a1fc8cd70c45acd!2z44CSMTg1LTAwMTIg5p2x5Lqs6YO95Zu95YiG5a-65biC5pys55S677yT5LiB55uu77yW4oiS77yR77ySIOOBteOCieOBo-OBqOeArOadkeODkeODvOODiO-8kQ!5e0!3m2!1sja!2sjp!4v1644739808162!5m2!1sja!2sjp" style="width:100%;" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
