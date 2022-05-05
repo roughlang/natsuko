@@ -693,8 +693,8 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/access/access_1.jpg" width="100%" alt="なんかコピーライト">
-              <p class="price-caption">なんかコピーライト</p>
+              <img src="/assets/img/access/access_1.jpg" width="100%" alt="room">
+              {{-- <p class="price-caption">room</p> --}}
             </p>
           </div>
         </div>
@@ -708,8 +708,8 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/access/access_2.jpg" width="100%" alt="なんかコピーライト">
-              <p class="price-caption">なんかコピーライト</p>
+              <img src="/assets/img/access/access_2.jpg" width="100%" alt="room">
+              {{-- <p class="price-caption">room</p> --}}
             </p>
           </div>
         </div>
@@ -723,8 +723,8 @@
           </div>
           <div class="modal-body">
             <p>
-              <img src="/assets/img/access/access_3.jpg" width="100%" alt="なんかコピーライト">
-              <p class="price-caption">なんかコピーライト</p>
+              <img src="/assets/img/access/access_3.jpg" width="100%" alt="room">
+              {{-- <p class="price-caption">room</p> --}}
             </p>
           </div>
         </div>
