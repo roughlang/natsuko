@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title'){{ config('app.name') }}@endsection
+@section('title'){{ config('app.name') }} 東京@endsection
 @section('description', '天然染料で染める、2週間で消えるボディアートジャグアタトゥー&ヘナタトゥー。東京・JR国分寺駅徒歩1分。2週間で消えるジャグアタトゥーとは？')
 @section('canonical'){{ config('app.url') }}@endsection
 
@@ -32,7 +32,7 @@
       <a href="#reservation">Reservation</a>
     </div>
     <div class="access term">
-      <a href="/ac/access/">Access</a>
+      <a href="#access">Access</a>
     </div>
   </div>
 </div><!-- menu end -->
@@ -733,10 +733,10 @@
 
     <div class="col-md-12 col-lg-6 price1">
       <p class="mt30 price-attention">
-      所在地●東京都国分寺市本町3-6-12-ふらっと瀬村206<br>
+      所在地● 東京都国分寺市本町3-6-12 ふらっと瀬村206<br>
       （西武・JR国分寺駅北口から徒歩1分）</p>
       <p class="price-attention">
-      営業時間●11:00-21:00不定休、完全予約制
+      営業時間●11:00-21:00 不定休 完全予約制
       </p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.734868126137!2d139.47677427369248!3d35.70170826933123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e436fd8d615f%3A0x2a1fc8cd70c45acd!2z44CSMTg1LTAwMTIg5p2x5Lqs6YO95Zu95YiG5a-65biC5pys55S677yT5LiB55uu77yW4oiS77yR77ySIOOBteOCieOBo-OBqOeArOadkeODkeODvOODiO-8kQ!5e0!3m2!1sja!2sjp!4v1644739808162!5m2!1sja!2sjp" style="width:100%;" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>

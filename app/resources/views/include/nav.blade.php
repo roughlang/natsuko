@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">
-      <img src="/assets/img/icon/logo_680.png" class="navbar-brand-img">
+      <img src="/assets/img/icon/logo_96.png" class="navbar-brand-img" alt="Natural body art 208 東京">
       <span class="navbar-brand-text">Natural body art 208</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
