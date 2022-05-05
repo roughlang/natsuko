@@ -558,24 +558,45 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container top-block-02">
   <div class="row">
-  <h3>アフターケアについて</h3>
-    <div class="col-md-12 col-lg-6">
-      <ul class="nlist">
+    <div class="col-md-12 col-lg-6 n208-block">
+      <h3 class="mt30">アフターケアについて</h3>
+        <p class="mt10">
+          <ul>
+            <li>ジャグアタトゥー、ヘナタトゥーともに施術後の1〜8時間の間は汗をかかないように注意してください。汗をかくとテープの下でインクが滲み、汚く染まってしまいます。</li>
+            <li>ヘナタトゥーは施術してから24時間はできるだけ水に触れないようにしてください。色の定着を妨げることがあります。</li>
+            <li>染まった後のジャグアタトゥー、ヘナタトゥーには、ワセリンや重めのクリームなどは塗らないようにしてください。発色が弱くなる可能性があります。施術後３日目以降は植物性のオイル、乳液、日焼け止めのクリームなどは塗ってもOKです。</li>
+          </ul>
+          <button id="more_aftercare_menu_button" type="button" class="btn btn-light mb30">more detail</button>
+          <div id="more_aftercare_menu_content" class="col-md-12 col-lg-6 mb60 n208-block">
+            <ul>
+              <li>ジャグアタトゥー、ヘナタトゥーは皮膚の一番上の角質層に着色してますので、皮膚の新陳代謝とともに退色していきます。あまり擦らないように気をつけて頂くと長持ちします。</li>
+              <li>ジャグアタトゥー、ヘナタトゥーは紫外線から肌を守る働きがありますので、施術した部分だけが日焼けしません。日焼けした場合、施術したデザインのまま白抜きになってしまうことがあるので、タトゥーが消えるまでは日焼けしないように気をつけてください。施術後3日目以降でしたら日焼け止めを塗ってもOKです。</li>
+              <li>染色後のジャグアタトゥー、ヘナタトゥーの上には、タトゥー隠しシールや絆創膏などのテープ類を貼らないようにしてください。剥がす時に角質が剥がれ、デザインが一部消えてしまうことがあります。 </li>
+            </ul>
+          </div>
+        </p>
+      </div>
+    </div>
+
+
+  {{-- <h3>アフターケアについて</h3> --}}
+    {{-- <div class="col-md-12 col-lg-6 n208-block">
+      <ul>
         <li>ジャグアタトゥー、ヘナタトゥーともに施術後の1〜8時間の間は汗をかかないように注意してください。汗をかくとテープの下でインクが滲み、汚く染まってしまいます。</li>
         <li>ヘナタトゥーは施術してから24時間はできるだけ水に触れないようにしてください。色の定着を妨げることがあります。</li>
         <li>染まった後のジャグアタトゥー、ヘナタトゥーには、ワセリンや重めのクリームなどは塗らないようにしてください。発色が弱くなる可能性があります。施術後３日目以降は植物性のオイル、乳液、日焼け止めのクリームなどは塗ってもOKです。</li>
       </ul>
     </div>
     <button id="more_aftercare_menu_button" type="button" class="btn btn-light mb30">more detail</button>
-    <div id="more_aftercare_menu_content" class="col-md-12 col-lg-6 mb60">
+    <div id="more_aftercare_menu_content" class="col-md-12 col-lg-6 mb60 n208-block">
       <ul>
         <li>ジャグアタトゥー、ヘナタトゥーは皮膚の一番上の角質層に着色してますので、皮膚の新陳代謝とともに退色していきます。あまり擦らないように気をつけて頂くと長持ちします。</li>
         <li>ジャグアタトゥー、ヘナタトゥーは紫外線から肌を守る働きがありますので、施術した部分だけが日焼けしません。日焼けした場合、施術したデザインのまま白抜きになってしまうことがあるので、タトゥーが消えるまでは日焼けしないように気をつけてください。施術後3日目以降でしたら日焼け止めを塗ってもOKです。</li>
         <li>染色後のジャグアタトゥー、ヘナタトゥーの上には、タトゥー隠しシールや絆創膏などのテープ類を貼らないようにしてください。剥がす時に角質が剥がれ、デザインが一部消えてしまうことがあります。 </li>
       </ul>
-    </div>
+    </div> --}}
   </div>
 </div>
 
@@ -594,15 +615,32 @@
         </div>
       </div>
     </div>
-    <div class="col-md-12 col-lg-6 n208-block">
+    <div class="col-md-12 col-lg-6 n208-block mb50">
       <p class="mt10">
         <p class="tcntr">ご予約はメールかLINEでお願いします。</p>
-        <p class="tcntr">
-          
+        <p class="tcntr email">
           <a href="mailto:n.room208@gmail.com" target="_blank">n.room208@gmail.com</a>
         </p>
-        <p class="tcntr"><img src="/assets/img/reservation/line.jpg" class="price-image menu-image" alt="ジャグアタトゥー"></p>
-        <h3>注意事項</h3>
+        <p class="tcntr"><img src="/assets/img/reservation/line.jpg" class="price-image menu-image" alt="LINE"></p>
+        
+        <h4 class="mt40">ご予約時は以下の項目をご記入ください</h4>
+        <ul>
+          <li>ご希望のお日にちと、時間</li>
+          <li>ジャグアorヘナタトゥー</li>
+          <li>ご希望のサイズ（①～⑯からお選びください）</li>
+          <li>希望デザイン</li>
+          <li>お名前</li>
+          <li>ご予約時間直前まで通じる電話番号</li>
+        </ul>
+
+        <h4 class="mt20">お支払い</h4>
+        <ul>
+          <li>PayPay</li>
+          <li>各種クレジットカード</li>
+          <li>現金</li>
+        </ul>
+
+        <h3 class="mt40">注意事項</h3>
         <ul>
           <li>ジャグアタトゥー、ヘナタトゥーの発色の濃さには個人差があります。</li>
           <li>当日は施術時に施術部位を露出しやすい服装でおこしください。</li>

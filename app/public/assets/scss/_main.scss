@@ -361,6 +361,10 @@ body {
       h3 {
         @include set-serif;
       }
+      h4 {
+        @include set-serif;
+        font-size: 18px;
+      }
       ul {
         // padding: 18px;
         li {
@@ -396,6 +400,9 @@ body {
 				text-align: center;
 				@include set-serif;
 			}
+      .email {
+        font-size: 23px;
+      }
 		}
 	}
   //menu
